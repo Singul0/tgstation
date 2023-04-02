@@ -1,0 +1,817 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ap" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"aq" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"bk" = (
+/turf/closed/indestructible/oldshuttle{
+	icon_state = "orange"
+	},
+/area/shuttle/escape)
+"bB" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"cp" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"ef" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/right,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"ga" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"ir" = (
+/obj/structure/chair/old{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/line,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"ja" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/right,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape/brig)
+"je" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/structure/fans/tiny,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"jk" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 6
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"jA" = (
+/obj/machinery/computer/emergency_shuttle,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"jC" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"kq" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/obj/machinery/sleeper/old,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"kv" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 5
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"kB" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/left,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape/brig)
+"kW" = (
+/obj/effect/turf_decal/trimline/red/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"mk" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line,
+/obj/effect/turf_decal/trimline/dark_blue/corner{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"mn" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/corner,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"nm" = (
+/turf/template_noop,
+/area/space)
+"nT" = (
+/obj/machinery/door/airlock/medical/glass,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"oe" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"pb" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"pc" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"qk" = (
+/turf/closed/indestructible/oldshuttle,
+/area/shuttle/escape/brig)
+"qB" = (
+/turf/closed/indestructible/oldshuttle/corner,
+/area/shuttle/escape)
+"sP" = (
+/turf/closed/indestructible/oldshuttle/corner{
+	dir = 1
+	},
+/area/shuttle/escape)
+"ue" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/electrical{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -1
+	},
+/obj/item/storage/toolbox/emergency{
+	pixel_x = 3;
+	pixel_y = -5
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/end{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"us" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"uz" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line,
+/obj/effect/turf_decal/trimline/dark_blue/corner{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"vk" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/structure/chair/old{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"vs" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"vP" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 8
+	},
+/obj/structure/chair/old{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"wk" = (
+/obj/machinery/computer/records/medical,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"wW" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/escape/brig)
+"xe" = (
+/turf/closed/indestructible/oldshuttle,
+/area/shuttle/escape)
+"xN" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"yA" = (
+/obj/machinery/computer/atmos_alert,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"zp" = (
+/obj/machinery/computer/communications,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 9
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Ap" = (
+/obj/machinery/computer/records/security{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/end{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"AL" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst/left,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"Bi" = (
+/obj/machinery/computer/crew,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Cr" = (
+/obj/item/crowbar/large/old,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"CH" = (
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/trimline/yellow/filled/line{
+	dir = 10
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Dr" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Ez" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/structure/chair/old{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"EG" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"FY" = (
+/obj/structure/closet{
+	icon_state = "oldcloset";
+	name = "strange closet";
+	enable_door_overlay = 0
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Gs" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"GU" = (
+/turf/closed/indestructible/oldshuttle/corner,
+/area/shuttle/escape/brig)
+"Hp" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/storage/medkit/brute,
+/obj/item/storage/medkit/fire,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"HH" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/obj/structure/table/optable,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"IN" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape/brig)
+"Jo" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"JQ" = (
+/obj/effect/turf_decal/trimline/yellow/filled/line,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Lq" = (
+/turf/closed/indestructible/oldshuttle/corner{
+	dir = 4
+	},
+/area/shuttle/escape/brig)
+"LN" = (
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"MG" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/medkit/o2{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/trimline/yellow/filled/end{
+	dir = 4;
+	pixel_y = 0
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"MY" = (
+/turf/closed/indestructible/oldshuttle{
+	icon_state = "orange"
+	},
+/area/shuttle/escape/brig)
+"NY" = (
+/obj/structure/chair/old{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/line,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"OX" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 9
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"QJ" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Sg" = (
+/turf/closed/indestructible/oldshuttle/corner{
+	dir = 4
+	},
+/area/shuttle/escape)
+"Sj" = (
+/obj/structure/chair/old{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"So" = (
+/turf/open/floor/iron/stairs/old{
+	dir = 1
+	},
+/area/shuttle/escape)
+"Su" = (
+/obj/structure/chair/old{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"TE" = (
+/turf/closed/indestructible/oldshuttle/corner{
+	dir = 8
+	},
+/area/shuttle/escape)
+"TH" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"TR" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 9
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Uh" = (
+/obj/structure/chair/old{
+	dir = 1
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Vk" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 6
+	},
+/obj/machinery/sleeper/old,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Wg" = (
+/obj/effect/turf_decal/trimline/red/filled/end{
+	dir = 4
+	},
+/obj/structure/chair/old{
+	dir = 8
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape/brig)
+"Wz" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line,
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"Xf" = (
+/obj/machinery/computer/station_alert{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark_blue/filled/end{
+	dir = 4
+	},
+/turf/open/floor/oldshuttle,
+/area/shuttle/escape)
+"ZC" = (
+/obj/machinery/power/shuttle_engine/propulsion/burst,
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+
+(1,1,1) = {"
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+TE
+xe
+bk
+AL
+nm
+"}
+(2,1,1) = {"
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+TE
+xe
+xe
+sP
+Hp
+bk
+bk
+ZC
+"}
+(3,1,1) = {"
+nm
+nm
+nm
+nm
+nm
+TE
+xe
+sP
+TR
+pc
+Dr
+Gs
+bk
+bk
+ZC
+"}
+(4,1,1) = {"
+nm
+nm
+nm
+nm
+ga
+bk
+TR
+EG
+ap
+HH
+TE
+xe
+bk
+ef
+nm
+"}
+(5,1,1) = {"
+nm
+nm
+nm
+nm
+TE
+xe
+vs
+kq
+Vk
+TE
+sP
+nm
+nm
+nm
+nm
+"}
+(6,1,1) = {"
+nm
+nm
+TE
+xe
+xe
+xe
+nT
+xe
+xe
+xe
+xe
+xe
+xe
+Sg
+nm
+"}
+(7,1,1) = {"
+nm
+TE
+sP
+Ap
+xe
+FY
+LN
+FY
+FY
+FY
+FY
+xe
+ue
+xe
+Sg
+"}
+(8,1,1) = {"
+TE
+sP
+wk
+ir
+xe
+Uh
+Uh
+Uh
+Uh
+Uh
+Uh
+xe
+jC
+qB
+xe
+"}
+(9,1,1) = {"
+xe
+zp
+Su
+uz
+xe
+Uh
+Uh
+Uh
+Uh
+Uh
+TE
+xe
+xN
+CH
+xe
+"}
+(10,1,1) = {"
+xe
+jA
+Uh
+Wz
+oe
+LN
+LN
+LN
+LN
+LN
+So
+QJ
+us
+JQ
+je
+"}
+(11,1,1) = {"
+xe
+Bi
+Sj
+mk
+xe
+Uh
+Uh
+Uh
+Uh
+Uh
+qB
+xe
+mn
+jk
+xe
+"}
+(12,1,1) = {"
+qB
+Sg
+yA
+NY
+xe
+Uh
+Uh
+Uh
+Uh
+Uh
+Uh
+xe
+aq
+TE
+xe
+"}
+(13,1,1) = {"
+nm
+qB
+Sg
+Xf
+xe
+FY
+Cr
+FY
+FY
+FY
+FY
+xe
+MG
+xe
+sP
+"}
+(14,1,1) = {"
+nm
+nm
+qB
+xe
+xe
+xe
+TH
+xe
+xe
+xe
+xe
+xe
+xe
+sP
+nm
+"}
+(15,1,1) = {"
+nm
+nm
+nm
+nm
+GU
+qk
+OX
+vP
+Ez
+GU
+Lq
+nm
+nm
+nm
+nm
+"}
+(16,1,1) = {"
+nm
+nm
+nm
+nm
+wW
+MY
+kv
+Jo
+kW
+vk
+GU
+qk
+MY
+kB
+nm
+"}
+(17,1,1) = {"
+nm
+nm
+nm
+nm
+nm
+GU
+qk
+Lq
+kv
+bB
+pb
+cp
+MY
+MY
+IN
+"}
+(18,1,1) = {"
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+GU
+qk
+qk
+Lq
+Wg
+MY
+MY
+IN
+"}
+(19,1,1) = {"
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+GU
+qk
+MY
+ja
+nm
+"}
