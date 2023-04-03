@@ -137,6 +137,16 @@
 	to_chat(user, span_danger("You scramble the communication routing circuits!"))
 	playsound(src, 'sound/machines/terminal_alert.ogg', 50, FALSE)
 
+/obj/machinery/computer/communications/attackby(obj/item/attacking_item, mob/living/user, params)
+	if(istype(attacking_item, /obj/item/disk/relic))
+		user.visible_message(span_notice("[user] begins to load \the [attacking_item] in \the [src]..."),
+			balloon_alert(user, "uploading design..."),
+			span_hear("You hear the chatter of a floppy drive."))
+		if(do_after(user, 14.4, target = src))
+			SSshuttle.shuttle_purchase_requirements_met[SHUTTLE_UNLOCK_RELIC] = TRUE
+		return TRUE
+
+	return ..()
 /obj/machinery/computer/communications/ui_act(action, list/params)
 	var/static/list/approved_states = list(STATE_BUYING_SHUTTLE, STATE_CHANGING_STATUS, STATE_MAIN, STATE_MESSAGES)
 

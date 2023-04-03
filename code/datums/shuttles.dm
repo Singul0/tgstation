@@ -480,6 +480,16 @@
 	admin_notes = "it's pretty big, and comfy. Be careful when placing it down!"
 	credit_cost = CARGO_CRATE_VALUE * 25
 
+/datum/map_template/shuttle/emergency/relic
+	suffix = "relic"
+	name = "NTS Prototype Ship \"Soul\""
+	description = "The old data disk you sent us is amazing! While ship may seem to be from a bygone past, The materials it was constructed with is nigh-indestructible! Unfortunately this means we are unable to replicate this material outside of the exact blueprint of the hull you sent us. As a show of thanks from the material research department the prototype of the hull has been converted into an escape shuttle for your station."
+	admin_notes = "It's cramped, revolting and soulful. It is indestructible and have sleepers onboard."
+	credit_cost = CARGO_CRATE_VALUE * 25
+
+/datum/map_template/shuttle/emergency/relic/prerequisites_met()
+	return SSshuttle.shuttle_purchase_requirements_met[SHUTTLE_UNLOCK_RELIC]
+
 /datum/map_template/shuttle/ferry/base
 	suffix = "base"
 	name = "transport ferry"

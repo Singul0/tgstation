@@ -73,6 +73,10 @@
 /mob/living/simple_animal/hostile/retaliate/spaceman,
 /turf/open/floor/oldshuttle,
 /area/ruin/space/has_grav/powered)
+"q" = (
+/obj/item/disk/relic,
+/turf/open/floor/oldshuttle,
+/area/ruin/space/has_grav/powered)
 "t" = (
 /obj/machinery/power/generator,
 /turf/open/floor/oldshuttle,
@@ -257,7 +261,7 @@ g
 g
 g
 g
-g
+q
 c
 t
 g
