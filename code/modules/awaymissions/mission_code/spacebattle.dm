@@ -1,4 +1,20 @@
-/// Main Syndicate Station Area
+// Areas
+/area/awaymission/spacebattle/asteroid
+	name = "\improper Asteroid"
+	icon = 'icons/area/areas_station.dmi'
+	icon_state = "asteroid"
+	has_gravity = STANDARD_GRAVITY
+	sound_environment = SOUND_AREA_ASTEROID
+	ambient_buzz = 'sound/ambience/ambiatmos.ogg'
+	outdoors = TRUE
+	always_unpowered = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	requires_power = TRUE
+	ambience_index = AMBIENCE_MINING
+
+// Main Syndicate Station Area
 /area/awaymission/spacebattle/station
 	name = "Commons Area"
 	icon_state = "away"
@@ -50,6 +66,9 @@
 
 /area/awaymission/spacebattle/escortboarder/cic
 	name = "Combat Information Center"
+
+/area/awaymission/spacebattle/escortboarder/hallway
+	name = "Primary Hallway"
 
 //Items
 /obj/machinery/suit_storage_unit/syndie_soft_suit
