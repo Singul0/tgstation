@@ -2,9 +2,6 @@
 /area/awaymission/spacebattle/station
 	name = "Commons Area"
 	icon_state = "away"
-	base_lighting_alpha = 0
-	static_lighting = TRUE
-	requires_power = TRUE
 
 /area/awaymission/spacebattle/station/medical
 	name = "Medical Bay"
@@ -31,4 +28,32 @@
 /area/awaymission/spacebattle/station/security
 	name = "Hostage Processing Centre"
 
+// Syndicate Escort Boarder
 
+/area/awaymission/spacebattle/escortboarder
+	name = "Assault Pod Hangar"
+
+/area/awaymission/spacebattle/escortboarder/engine
+	name = "Engine Room"
+
+/area/awaymission/spacebattle/escortboarder/medical
+	name = "Trauma Care"
+
+/area/awaymission/spacebattle/escortboarder/briefing
+	name = "Briefing Room"
+
+/area/awaymission/spacebattle/escortboarder/barrack
+	name = "Barracks"
+
+/area/awaymission/spacebattle/escortboarder/dockingbay
+	name = "Docking Bay"
+
+/area/awaymission/spacebattle/escortboarder/cic
+	name = "Combat Information Center"
+
+//Items
+/obj/machinery/suit_storage_unit/syndie_soft_suit
+	suit_type = /obj/item/clothing/suit/space/syndicate/black/engie
+	helmet_type = /obj/item/clothing/head/helmet/space/syndicate/black/engie
+	mask_type = /obj/item/clothing/mask/gas/syndicate
+	storage_type = /obj/item/tank/internals/emergency_oxygen/double
