@@ -7,6 +7,9 @@
 	caliber = CALIBER_712X82MM
 	projectile_type = /obj/projectile/bullet/mm712x82
 
+/obj/item/ammo_casing/mm712x82/spent
+	projectile_type = null
+
 /obj/item/ammo_casing/mm712x82/ap
 	name = "7.12x82mm armor-piercing bullet casing"
 	desc = "A 7.12x82mm bullet casing designed with a hardened-tipped core to help penetrate armored targets."

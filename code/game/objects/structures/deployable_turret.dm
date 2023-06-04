@@ -235,6 +235,14 @@
 	can_be_undeployed = TRUE
 	spawned_on_undeploy = /obj/item/deployable_turret_folded
 
+/obj/machinery/deployable_turret/hmg/l6_saw
+	name = "L6 SAW Turret"
+	desc = "A heavily modified 7.12x82mm light machine gun, designated 'L6 SAW'. Has 'Aussec Armoury - 2531' engraved on the receiver below the designation. This specific gun is mounted on a turret"
+	can_be_undeployed = FALSE
+	projectile_type = /obj/projectile/bullet/mm712x82/bouncy
+	firesound = 'sound/weapons/gun/l6/shot.ogg'
+	overheatsound = 'sound/weapons/gun/l6/l6_rack.ogg'
+
 /obj/item/gun_control
 	name = "turret controls"
 	icon = 'icons/obj/weapons/hand.dmi'

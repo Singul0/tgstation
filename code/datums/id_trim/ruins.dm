@@ -162,3 +162,15 @@
 /datum/id_trim/away/the_outlet/mad_manager
 	assignment = "The Mad Manager"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_MEDICAL, ACCESS_AWAY_SEC)
+
+//Trims for Blueshift icemoon ruin
+/datum/id_trim/away/blueshift
+	assignment = "Blueshift Research Facility Security Guard"
+	trim_state = "trim_securityofficer"
+	department_color = COLOR_COMMAND_BLUE
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_SEC)
+
+/datum/id_trim/away/blueshift/scientist
+	assignment = "Blueshift Research Facility Science Team"
+	trim_state = "trim_scientist"
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_SCIENCE)

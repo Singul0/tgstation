@@ -181,6 +181,9 @@
 /turf/open/floor/iron/dark/textured_large/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
+/turf/open/floor/iron/dark/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/iron/dark/small
 	icon_state = "dark_small"
 	base_icon_state = "dark_small"
