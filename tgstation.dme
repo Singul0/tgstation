@@ -1599,6 +1599,7 @@
 #include "code\datums\shuttles\arrival.dm"
 #include "code\datums\shuttles\assault_pod.dm"
 #include "code\datums\shuttles\aux_base.dm"
+#include "code\datums\shuttles\bitrunning.dm"
 #include "code\datums\shuttles\cargo.dm"
 #include "code\datums\shuttles\emergency.dm"
 #include "code\datums\shuttles\ert.dm"

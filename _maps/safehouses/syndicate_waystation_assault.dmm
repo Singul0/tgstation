@@ -1,0 +1,2137 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aq" = (
+/obj/effect/turf_decal/siding/dark/end,
+/obj/structure/reagent_dispensers/fueltank/large,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"aO" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/sandbags{
+	amount = 35
+	},
+/obj/item/spess_knife{
+	pixel_y = -9;
+	pixel_x = 7
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"bd" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/dark_green{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 10;
+	pixel_x = -1
+	},
+/turf/open/floor/iron,
+/area/virtual_domain/safehouse)
+"bs" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"bG" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"bK" = (
+/obj/structure/table/reinforced,
+/obj/item/folder/blue{
+	pixel_x = 5;
+	pixel_y = -1
+	},
+/obj/item/phone{
+	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/white/small,
+/area/virtual_domain/safehouse)
+"bN" = (
+/obj/machinery/door/window/brigdoor/left/directional/north{
+	name = "Squad Leader"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/virtual_domain/safehouse)
+"bR" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/fans/tiny/shield,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/window/preopen,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"ca" = (
+/obj/structure/closet/syndicate,
+/obj/item/storage/belt/military,
+/obj/item/clothing/glasses/night,
+/obj/item/radio{
+	pixel_x = 6;
+	pixel_y = -5
+	},
+/obj/item/clothing/suit/armor/vest/marine/pmc{
+	pixel_y = -5
+	},
+/obj/item/clothing/head/helmet/marine/pmc,
+/obj/effect/turf_decal/stripes{
+	dir = 6
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ci" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"cN" = (
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"dJ" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"ej" = (
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"eF" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/obj/item/storage/fancy/donut_box,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"eN" = (
+/obj/machinery/door/airlock/grunge,
+/obj/effect/mapping_helpers/airlock/access/all,
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"fl" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ft" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/rack,
+/obj/item/crowbar/power,
+/obj/item/storage/belt/utility/full{
+	pixel_y = -5
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"fy" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"gl" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"gp" = (
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"gC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"gK" = (
+/obj/structure/closet/syndicate,
+/obj/effect/turf_decal/stripes,
+/obj/item/storage/belt/military,
+/obj/item/clothing/glasses/night,
+/obj/item/radio{
+	pixel_x = 6;
+	pixel_y = -5
+	},
+/obj/item/clothing/suit/armor/vest/marine/pmc{
+	pixel_y = -5
+	},
+/obj/item/clothing/head/helmet/marine/pmc,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"gR" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/table/optable,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"hQ" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ic" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ij" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ir" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/rack,
+/obj/item/gun/ballistic/rocketlauncher/unrestricted,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"iA" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"iK" = (
+/obj/effect/landmark/bitrunning/cache_goal_turf,
+/obj/effect/turf_decal/loading_area,
+/obj/machinery/light/directional/south,
+/turf/open/floor/bitrunning_transport,
+/area/virtual_domain/safehouse)
+"iQ" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"iS" = (
+/obj/structure/table/reinforced,
+/obj/item/flashlight/lamp{
+	pixel_y = 2;
+	on = 0;
+	pixel_x = 8
+	},
+/obj/item/paper_bin{
+	pixel_y = 2;
+	pixel_x = -7
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"iX" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"jT" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/rack,
+/obj/item/autosurgeon/medical_hud,
+/obj/item/clothing/head/helmet/marine/medic,
+/obj/item/clothing/suit/toggle/labcoat,
+/obj/item/clothing/glasses/regular/thin,
+/obj/item/circular_saw,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"kK" = (
+/turf/closed/wall/mineral/titanium,
+/area/virtual_domain/safehouse)
+"kU" = (
+/obj/effect/turf_decal/loading_area,
+/obj/effect/landmark/bitrunning/cache_goal_turf,
+/turf/open/floor/bitrunning_transport,
+/area/virtual_domain/safehouse)
+"lv" = (
+/obj/structure/sinkframe{
+	dir = 8
+	},
+/obj/structure/mirror/directional/west,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"lE" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"mr" = (
+/turf/open/floor/circuit,
+/area/virtual_domain/safehouse)
+"mY" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ni" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/ammobox/wt550m9{
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/ammobox/wt550m9ap{
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/stripes,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"nR" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Briefing Room"
+	},
+/obj/effect/mapping_helpers/airlock/access/all,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"nX" = (
+/obj/machinery/door/window/brigdoor/left/directional/north{
+	name = "Combat Lifesaver"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/virtual_domain/safehouse)
+"og" = (
+/obj/structure/guncase/wt550,
+/obj/effect/turf_decal/stripes{
+	dir = 10
+	},
+/obj/item/gun/ballistic/automatic/wt550,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"pn" = (
+/obj/docking_port/stationary{
+	dwidth = 4;
+	height = 5;
+	shuttle_id = "syndie_waystation_safehouse";
+	name = "NSS Eclipse";
+	roundstart_template = /datum/map_template/shuttle/bitrunning/syndicate_drop_pod;
+	width = 9;
+	dir = 2
+	},
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"pq" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"pZ" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/item/storage/backpack/duffelbag/syndie,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"qf" = (
+/obj/structure/chair/stool/directional/south{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"qn" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/pistol/deagle{
+	spawnwithmagazine = 0
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"qs" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/dark_green,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron,
+/area/virtual_domain/safehouse)
+"qB" = (
+/obj/structure/reagent_dispensers/fueltank/large,
+/obj/effect/turf_decal/siding/dark/end{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"qO" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"rs" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 4;
+	pixel_y = 0;
+	pixel_x = -18
+	},
+/turf/open/floor/iron,
+/area/virtual_domain/safehouse)
+"sb" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/rack,
+/obj/item/defibrillator/compact/combat/loaded/nanotrasen,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"sI" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"sN" = (
+/obj/structure/chair/stool/directional/south{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"tn" = (
+/obj/structure/railing/corner/end/flip{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"tv" = (
+/obj/structure/table/reinforced,
+/obj/item/taperecorder,
+/turf/open/floor/iron/white/small,
+/area/virtual_domain/safehouse)
+"tB" = (
+/obj/effect/turf_decal/siding/dark_green/corner,
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"uE" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"vf" = (
+/obj/structure/chair/sofa/right{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"vj" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"vY" = (
+/obj/structure/guncase/wt550,
+/obj/effect/turf_decal/stripes,
+/obj/item/gun/ballistic/automatic/wt550,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"wi" = (
+/obj/machinery/door/window/brigdoor/left/directional/north{
+	name = "Demolition Expert"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/virtual_domain/safehouse)
+"wp" = (
+/obj/effect/turf_decal/siding/dark_green,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"wt" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"wL" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"wV" = (
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"xh" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"xk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"xG" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"xM" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Briefing Room"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all,
+/turf/open/space/basic,
+/area/virtual_domain/safehouse)
+"yF" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/glass/mug/nanotrasen{
+	pixel_x = 9
+	},
+/obj/item/folder/blue{
+	pixel_x = -5
+	},
+/obj/item/pen/blue{
+	pixel_x = -5
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"zj" = (
+/obj/machinery/shower/directional/east,
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 8
+	},
+/obj/structure/fluff{
+	desc = "Ew, I think I see a hairball.";
+	icon = 'icons/obj/lavaland/survival_pod.dmi';
+	icon_state = "fan_tiny";
+	name = "shower drain"
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"zl" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"zH" = (
+/obj/structure/railing/corner/end{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"zS" = (
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/structure/chair/office/tactical,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"zY" = (
+/obj/machinery/shuttle_manipulator,
+/turf/open/floor/circuit,
+/area/virtual_domain/safehouse)
+"As" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/fans/tiny/shield,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/window/preopen,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"AI" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/item/storage/belt/utility/full/engi{
+	pixel_y = 3
+	},
+/obj/item/storage/belt/utility/full/engi{
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"AY" = (
+/obj/structure/chair/stool/directional/south{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Bf" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"BS" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/dark/end{
+	dir = 1
+	},
+/obj/item/clothing/head/utility/welding{
+	pixel_y = 7
+	},
+/obj/item/clothing/glasses/meson/engine{
+	pixel_y = 2
+	},
+/obj/item/clothing/glasses/meson/engine,
+/obj/item/clothing/head/utility/welding,
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"BW" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Hangar Bay"
+	},
+/obj/effect/mapping_helpers/airlock/access/all,
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"Cl" = (
+/obj/effect/landmark/bitrunning/hololadder_spawn,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Cn" = (
+/obj/effect/turf_decal/bot/left,
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Cs" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/structure/crate_abandoned,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Cu" = (
+/obj/structure/guncase/wt550,
+/obj/effect/turf_decal/stripes,
+/obj/item/gun/ballistic/automatic/wt550,
+/obj/item/gun/ballistic/automatic/wt550,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Dd" = (
+/obj/structure/railing,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Df" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/rack,
+/obj/item/gun/ballistic/shotgun/doublebarrel/breacherslug,
+/obj/item/storage/box/breacherslug,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Dp" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Armoury"
+	},
+/obj/effect/mapping_helpers/airlock/access/all,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/virtual_domain/safehouse)
+"DK" = (
+/turf/open/floor/iron/stairs{
+	dir = 8
+	},
+/area/virtual_domain/safehouse)
+"DU" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/surgery_tray/full/advanced,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Ee" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"Eo" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
+	dir = 4;
+	pixel_x = -18;
+	pixel_y = 0
+	},
+/obj/structure/sink/kitchen/directional/south,
+/turf/open/floor/iron,
+/area/virtual_domain/safehouse)
+"EC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/closed/wall/mineral/titanium,
+/area/virtual_domain/safehouse)
+"EL" = (
+/obj/effect/turf_decal/bot/right,
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Fn" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"FP" = (
+/obj/structure/closet/syndicate,
+/obj/effect/turf_decal/stripes,
+/obj/item/storage/belt/military,
+/obj/item/clothing/glasses/night,
+/obj/item/radio{
+	pixel_x = 6;
+	pixel_y = -5
+	},
+/obj/item/clothing/suit/armor/vest/marine/pmc{
+	pixel_y = -5
+	},
+/obj/item/clothing/head/helmet/marine/pmc,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"FQ" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Ge" = (
+/obj/structure/railing,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"GG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Ha" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/virtual_domain/safehouse)
+"Hi" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"HE" = (
+/turf/closed/indestructible/binary,
+/area/virtual_domain/safehouse)
+"Jc" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/virtual_domain/safehouse)
+"Jy" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"JE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Kc" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Kk" = (
+/obj/structure/guncase/wt550,
+/obj/effect/turf_decal/stripes,
+/obj/item/gun/ballistic/automatic/wt550,
+/obj/item/gun/ballistic/automatic/wt550,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Ks" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"KK" = (
+/obj/effect/turf_decal/siding/dark/end,
+/obj/structure/tank_dispenser,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"KN" = (
+/turf/open/floor/iron/white/small,
+/area/virtual_domain/safehouse)
+"Lz" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"LS" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Mi" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"MB" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/item/reagent_containers/cup/glass/bottle/beer{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/cup/rag,
+/obj/effect/turf_decal/siding/dark_green{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/virtual_domain/safehouse)
+"ME" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/rack,
+/obj/item/gun/grenadelauncher{
+	pixel_y = 3
+	},
+/obj/item/grenade/smokebomb{
+	pixel_y = -5;
+	pixel_x = -11
+	},
+/obj/item/grenade/smokebomb{
+	pixel_y = -5;
+	pixel_x = 8
+	},
+/obj/item/grenade/smokebomb{
+	pixel_y = -5;
+	pixel_x = 2
+	},
+/obj/item/grenade/smokebomb{
+	pixel_y = -5;
+	pixel_x = -4
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"MK" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"ML" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Nl" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/bounty,
+/turf/open/floor/plating/airless,
+/area/virtual_domain/safehouse)
+"NF" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/rack,
+/obj/item/ammo_casing/rocket/weak{
+	pixel_x = -5
+	},
+/obj/item/ammo_casing/rocket/weak{
+	pixel_x = 4
+	},
+/obj/item/clothing/head/helmet/rus_helmet{
+	name = "soldier helmet";
+	desc = "A helmet fit for that of a soldier.";
+	pixel_x = -2
+	},
+/obj/item/clothing/head/helmet/marine/engineer{
+	pixel_y = -3;
+	pixel_x = 10
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"NK" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain/bounty/start_closed,
+/turf/open/floor/plating/airless,
+/area/virtual_domain/safehouse)
+"NO" = (
+/obj/effect/landmark/bitrunning/hololadder_spawn,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"NQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/fans/tiny/shield,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/window/preopen,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"NS" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Oq" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/bed/medical/anchored,
+/obj/structure/curtain,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Ou" = (
+/obj/structure/table/reinforced,
+/obj/item/megaphone/command,
+/turf/open/floor/iron/white/small,
+/area/virtual_domain/safehouse)
+"OO" = (
+/obj/structure/chair/stool/directional/south,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"OX" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/rack,
+/obj/item/storage/box/syringes,
+/obj/item/gun/syringe/syndicate,
+/obj/item/gun/medbeam{
+	pixel_x = -1;
+	pixel_y = -8
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Pz" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"PI" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 8
+	},
+/obj/machinery/holopad,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/white/small,
+/area/virtual_domain/safehouse)
+"Qj" = (
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 4
+	},
+/obj/machinery/door/window/survival_pod{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"QJ" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"QL" = (
+/obj/effect/turf_decal/stripes{
+	dir = 1
+	},
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"QQ" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"QU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"QZ" = (
+/obj/structure/chair/stool/directional/south{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Rj" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"RB" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/corner,
+/obj/item/clothing/mask/cigarette/cigar/cohiba{
+	pixel_x = 6
+	},
+/obj/item/clothing/mask/cigarette/cigar{
+	pixel_x = 4.5
+	},
+/obj/item/clothing/mask/cigarette/cigar/havana{
+	pixel_x = 2
+	},
+/obj/item/lighter,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"RX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Sb" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Sp" = (
+/obj/effect/turf_decal/bot/right,
+/obj/effect/spawner/random/structure/crate_empty,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"Sr" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"SX" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/clothing/suit/hazardvest{
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/item/clothing/ears/earmuffs{
+	pixel_y = -3
+	},
+/obj/item/clothing/ears/earmuffs{
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/iron/textured,
+/area/virtual_domain/safehouse)
+"TB" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/landmark/bitrunning/cache_goal_turf,
+/obj/effect/turf_decal/loading_area,
+/turf/open/floor/bitrunning_transport,
+/area/virtual_domain/safehouse)
+"Ub" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"Vb" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Wn" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/clothing/mask/muzzle/breath,
+/obj/item/tank/internals/anesthetic,
+/obj/effect/turf_decal/trimline/dark_blue/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Xg" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating,
+/obj/item/toy/cards/deck,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"Xv" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/rack,
+/obj/item/storage/medkit/tactical,
+/obj/item/clothing/glasses/hud/health/night,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"XB" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/m50{
+	pixel_x = -4
+	},
+/obj/item/ammo_box/magazine/m50,
+/obj/item/clothing/head/helmet/marine,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/safehouse)
+"XW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
+/area/virtual_domain/safehouse)
+"YC" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/pizzabox,
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/safehouse)
+"YD" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/dark_green{
+	dir = 4
+	},
+/obj/item/toy/figure/dsquad{
+	pixel_x = 9
+	},
+/obj/item/toy/figure/dsquad{
+	pixel_x = -9
+	},
+/obj/item/toy/figure/dsquad{
+	pixel_x = -9
+	},
+/obj/item/toy/figure/dsquad,
+/turf/open/floor/iron,
+/area/virtual_domain/safehouse)
+"YJ" = (
+/obj/machinery/vending/boozeomat,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/virtual_domain/safehouse)
+"Zg" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Weapons Bay"
+	},
+/obj/effect/mapping_helpers/airlock/access/all,
+/turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+
+(1,1,1) = {"
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(2,1,1) = {"
+HE
+kK
+kK
+eN
+kK
+kK
+kK
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(3,1,1) = {"
+HE
+kK
+cN
+wV
+lE
+FQ
+NO
+kK
+HE
+HE
+kK
+NK
+nR
+NK
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(4,1,1) = {"
+HE
+kK
+Sb
+wV
+lE
+FQ
+Cl
+kK
+kK
+kK
+YJ
+Ub
+cN
+tB
+kK
+kK
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(5,1,1) = {"
+HE
+kK
+cN
+wV
+lE
+FQ
+NO
+kK
+Eo
+rs
+qs
+cN
+cN
+wp
+Rj
+qO
+NK
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(6,1,1) = {"
+HE
+kK
+cN
+wV
+MK
+kK
+kK
+kK
+bd
+YD
+MB
+cN
+cN
+wp
+wt
+vj
+NK
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(7,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+kK
+cN
+Pz
+RX
+RX
+RX
+LS
+cN
+wp
+vf
+Kc
+NK
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(8,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+Nl
+iX
+pq
+sN
+sN
+sN
+ij
+mY
+kK
+kK
+kK
+kK
+kK
+kK
+HE
+HE
+HE
+HE
+"}
+(9,1,1) = {"
+HE
+kK
+Sb
+wV
+cN
+Nl
+fy
+OO
+RB
+iQ
+pZ
+AY
+Ks
+kK
+ni
+Jc
+QL
+iS
+kK
+HE
+HE
+HE
+HE
+"}
+(10,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+Nl
+fy
+OO
+Xg
+zY
+NS
+AY
+Ks
+kK
+FP
+Jc
+zS
+yF
+kK
+HE
+HE
+HE
+HE
+"}
+(11,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+Nl
+fy
+OO
+zl
+mr
+YC
+AY
+Ks
+kK
+gK
+Jc
+ir
+NF
+kK
+HE
+HE
+HE
+HE
+"}
+(12,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+kK
+ic
+OO
+eF
+Jy
+bs
+AY
+xh
+kK
+FP
+Jc
+wi
+Ha
+kK
+HE
+HE
+HE
+HE
+"}
+(13,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+xM
+Sr
+uE
+QZ
+qf
+qf
+xG
+QJ
+kK
+ca
+Jc
+aO
+ft
+kK
+HE
+HE
+HE
+HE
+"}
+(14,1,1) = {"
+HE
+kK
+Sb
+wV
+cN
+kK
+cN
+fl
+Lz
+Lz
+Lz
+hQ
+cN
+Dp
+Jc
+Jc
+qn
+XB
+kK
+HE
+HE
+HE
+HE
+"}
+(15,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+kK
+iX
+pq
+bK
+Ou
+tv
+ij
+LS
+kK
+og
+Jc
+bN
+Ha
+kK
+HE
+HE
+HE
+HE
+"}
+(16,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+kK
+Mi
+KN
+KN
+PI
+KN
+KN
+Fn
+kK
+Kk
+Jc
+ME
+Df
+kK
+HE
+HE
+HE
+HE
+"}
+(17,1,1) = {"
+HE
+kK
+kK
+BW
+kK
+kK
+kK
+EC
+kK
+kK
+kK
+kK
+kK
+kK
+Cu
+Jc
+OX
+jT
+kK
+HE
+HE
+HE
+HE
+"}
+(18,1,1) = {"
+HE
+kK
+cN
+wV
+Oq
+lv
+zj
+gR
+Dd
+Cn
+Cs
+wL
+Sp
+kK
+vY
+Jc
+nX
+Ha
+kK
+HE
+HE
+HE
+HE
+"}
+(19,1,1) = {"
+HE
+kK
+cN
+wV
+ci
+ej
+ej
+DU
+Ge
+EL
+Cs
+Cs
+Cn
+kK
+kK
+Jc
+Xv
+sb
+kK
+HE
+HE
+HE
+HE
+"}
+(20,1,1) = {"
+HE
+kK
+cN
+wV
+Vb
+Qj
+Qj
+Wn
+Bf
+iA
+DK
+DK
+Hi
+kU
+kK
+kK
+kK
+kK
+kK
+HE
+HE
+HE
+HE
+"}
+(21,1,1) = {"
+HE
+kK
+Sb
+wV
+wV
+wV
+wV
+wV
+wV
+tn
+wV
+wV
+zH
+iK
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(22,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+TB
+kK
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(23,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+XW
+gl
+gl
+gl
+gl
+gl
+gl
+gl
+gl
+ML
+As
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(24,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+JE
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+dJ
+gp
+bR
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(25,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+JE
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+bR
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(26,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+JE
+pn
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+bR
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(27,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+JE
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+bR
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(28,1,1) = {"
+HE
+kK
+Sb
+wV
+cN
+JE
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+gp
+bR
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(29,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+gC
+GG
+QU
+QU
+QU
+QU
+QU
+QU
+QU
+xk
+NQ
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(30,1,1) = {"
+HE
+Zg
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+bG
+wV
+wV
+wV
+wV
+wV
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(31,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+AI
+BS
+SX
+KK
+kK
+qB
+QQ
+Ee
+sI
+aq
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(32,1,1) = {"
+HE
+kK
+kK
+eN
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
+(33,1,1) = {"
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+"}
