@@ -1,7 +1,7 @@
-/datum/lazy_template/virtual_domain/pipedream
+/datum/lazy_template/virtual_domain/syndicate_waystation_assault
 	name = "Syndicate Waystation Assault"
 	cost = BITRUNNER_COST_HIGH
-	desc = "An clandestine waystation point for syndicate raids tucked away in the asteroid field of a non-descript gas giant. Can you raid it for all it's worth?"
+	desc = "An clandestine waystation point for syndicate raids tucked away in a asteroid field of a non-descript gas giant. Can you raid it for all it's worth?"
 	difficulty = BITRUNNER_DIFFICULTY_HIGH
 	extra_loot = list(/obj/item/folder/syndicate/red)
 	forced_outfit = /datum/outfit/virtual_marine
@@ -46,13 +46,9 @@
 		ACCESS_AWAY_SEC
 		)
 // ID Cards
-/obj/item/card/id/advanced/factory
-	name = "factory worker ID"
-	trim = /datum/id_trim/factory
-
-/obj/item/card/id/advanced/factory/qm
-	name = "factory quartermaster ID"
-	trim = /datum/id_trim/factory/qm
+/obj/item/card/id/advanced/virtual_marine
+	name = "virtual marine id"
+	trim = /datum/id_trim/syndicate_waystation/marine
 
 //Outfits
 /datum/outfit/virtual_marine
