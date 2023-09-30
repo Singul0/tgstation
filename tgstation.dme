@@ -3257,6 +3257,7 @@
 #include "code\modules\bitrunning\virtual_domain\domains\pirates.dm"
 #include "code\modules\bitrunning\virtual_domain\domains\stairs_and_cliffs.dm"
 #include "code\modules\bitrunning\virtual_domain\domains\syndicate_assault.dm"
+#include "code\modules\bitrunning\virtual_domain\domains\syndicate_waystation.dm"
 #include "code\modules\bitrunning\virtual_domain\domains\test_only.dm"
 #include "code\modules\bitrunning\virtual_domain\domains\vaporwave.dm"
 #include "code\modules\bitrunning\virtual_domain\domains\wendigo.dm"

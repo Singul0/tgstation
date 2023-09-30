@@ -49,6 +49,9 @@
 	/// The turfs on station where we generate loot.
 	var/turf/receive_turfs = list()
 
+/obj/machinery/quantum_server/debug
+	points = 1000
+
 /obj/machinery/quantum_server/Initialize(mapload)
 	. = ..()
 
