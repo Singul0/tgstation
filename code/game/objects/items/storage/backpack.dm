@@ -194,6 +194,10 @@
 	inhand_icon_state = "securitypack"
 	resistance_flags = FIRE_PROOF
 
+/obj/item/storage/backpack/ert/pmc
+	name = "Tactical Backpack"
+	desc = "A spacious backpack with lots of pockets, worn most commonly by most elite military forces all over the sector."
+
 /obj/item/storage/backpack/ert/security
 	name = "emergency response team security backpack"
 	desc = "A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team."

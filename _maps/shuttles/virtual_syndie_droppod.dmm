@@ -80,14 +80,9 @@
 	id_tag = "SBC_corvette_bolt";
 	name = "Syndicate Corvette Airlock"
 	},
-/obj/docking_port/stationary{
-	dwidth = 4;
-	height = 5;
-	shuttle_id = "syndie_waystation_safehouse";
-	name = "NSS Eclipse";
-	roundstart_template = /datum/map_template/shuttle/ruin/syndicate_fighter_shiv;
-	width = 9;
-	dir = 2
+/obj/docking_port/mobile{
+	name = "Syndicate Drop-pod";
+	shuttle_id = "bitrunning"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/syndicate_drop_pod)

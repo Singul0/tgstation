@@ -78,11 +78,12 @@
 /area/virtual_domain/safehouse)
 "bR" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/fans/tiny/shield,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters/window/preopen,
+/obj/structure/emergency_shield/regenerating,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/virtual_domain/safehouse)
 "ca" = (
@@ -100,6 +101,10 @@
 /obj/effect/turf_decal/stripes{
 	dir = 6
 	},
+/obj/item/clothing/gloves/combat{
+	pixel_y = -4
+	},
+/obj/item/clothing/mask/balaclava,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "ci" = (
@@ -191,6 +196,10 @@
 	},
 /obj/item/clothing/head/helmet/marine/pmc,
 /obj/machinery/light/directional/north,
+/obj/item/clothing/gloves/combat{
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/balaclava,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "gR" = (
@@ -353,18 +362,6 @@
 /obj/item/gun/ballistic/automatic/wt550,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
-"pn" = (
-/obj/docking_port/stationary{
-	dwidth = 4;
-	height = 5;
-	shuttle_id = "syndie_waystation_safehouse";
-	name = "NSS Eclipse";
-	roundstart_template = /datum/map_template/shuttle/bitrunning/syndicate_drop_pod;
-	width = 9;
-	dir = 2
-	},
-/turf/open/floor/plating,
-/area/virtual_domain/safehouse)
 "pq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -481,7 +478,7 @@
 /area/virtual_domain/safehouse)
 "tB" = (
 /obj/effect/turf_decal/siding/dark_green/corner,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "uE" = (
@@ -550,14 +547,11 @@
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "xM" = (
+/obj/effect/mapping_helpers/airlock/access/all,
 /obj/machinery/door/airlock/grunge{
 	name = "Briefing Room"
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/all,
-/turf/open/space/basic,
+/turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "yF" = (
 /obj/structure/table/reinforced,
@@ -620,11 +614,12 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/structure/fans/tiny/shield,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters/window/preopen,
+/obj/structure/emergency_shield/regenerating,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/virtual_domain/safehouse)
 "AI" = (
@@ -786,7 +781,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "FP" = (
@@ -802,6 +797,10 @@
 	pixel_y = -5
 	},
 /obj/item/clothing/head/helmet/marine/pmc,
+/obj/item/clothing/gloves/combat{
+	pixel_y = -4
+	},
+/obj/item/clothing/mask/balaclava,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "FQ" = (
@@ -905,7 +904,7 @@
 /area/virtual_domain/safehouse)
 "Mi" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "MB" = (
@@ -1004,11 +1003,12 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/structure/fans/tiny/shield,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters/window/preopen,
+/obj/structure/emergency_shield/regenerating,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/virtual_domain/safehouse)
 "NS" = (
@@ -1201,7 +1201,7 @@
 /turf/open/floor/bitrunning_transport,
 /area/virtual_domain/safehouse)
 "Ub" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "Vb" = (
@@ -1308,6 +1308,9 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all,
 /turf/open/floor/catwalk_floor/iron,
+/area/virtual_domain/safehouse)
+"Zy" = (
+/turf/open/space/basic,
 /area/virtual_domain/safehouse)
 
 (1,1,1) = {"
@@ -1826,14 +1829,14 @@ wV
 zH
 iK
 kK
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (22,1,1) = {"
 HE
@@ -1852,13 +1855,13 @@ cN
 TB
 kK
 kK
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (23,1,1) = {"
 HE
@@ -1877,13 +1880,13 @@ gl
 gl
 ML
 As
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (24,1,1) = {"
 HE
@@ -1898,17 +1901,17 @@ gp
 gp
 gp
 gp
-gp
 dJ
 gp
+gp
 bR
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (25,1,1) = {"
 HE
@@ -1927,13 +1930,13 @@ gp
 gp
 gp
 bR
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (26,1,1) = {"
 HE
@@ -1942,7 +1945,7 @@ cN
 wV
 cN
 JE
-pn
+gp
 gp
 gp
 gp
@@ -1952,13 +1955,13 @@ gp
 gp
 gp
 bR
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (27,1,1) = {"
 HE
@@ -1977,13 +1980,13 @@ gp
 gp
 gp
 bR
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (28,1,1) = {"
 HE
@@ -1999,16 +2002,16 @@ gp
 gp
 gp
 gp
-gp
+dJ
 gp
 bR
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (29,1,1) = {"
 HE
@@ -2027,15 +2030,40 @@ QU
 QU
 xk
 NQ
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (30,1,1) = {"
+HE
+kK
+cN
+wV
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+kK
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+"}
+(31,1,1) = {"
 HE
 Zg
 wV
@@ -2052,19 +2080,19 @@ wV
 wV
 wV
 kK
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
-(31,1,1) = {"
+(32,1,1) = {"
 HE
 kK
 cN
-wV
+cN
 cN
 AI
 BS
@@ -2077,61 +2105,36 @@ Ee
 sI
 aq
 kK
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-"}
-(32,1,1) = {"
-HE
-kK
-kK
-eN
-kK
-kK
-kK
-kK
-kK
-kK
-kK
-kK
-kK
-kK
-kK
-kK
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}
 (33,1,1) = {"
 HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
-HE
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+kK
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
+Zy
 "}

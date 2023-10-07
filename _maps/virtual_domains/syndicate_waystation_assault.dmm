@@ -6,12 +6,49 @@
 /obj/machinery/light/small/built/directional/east,
 /turf/open/floor/iron/showroomfloor,
 /area/virtual_domain/syndicate_waystation/station)
+"af" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_x = -3
+	},
+/obj/item/gun/ballistic/automatic/pistol{
+	pixel_x = 3
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
+"ai" = (
+/obj/machinery/door/airlock/vault{
+	name = "Armoury";
+	id_tag = "syndicate_armoury"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/turf/open/floor/engine,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "al" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/mining)
+"aq" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "ar" = (
-/obj/structure/bookcase/manuals/engineering,
+/obj/structure/bookcase/random/reference,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "as" = (
@@ -66,6 +103,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"aF" = (
+/obj/structure/broken_flooring/pile/directional/north{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "aH" = (
 /obj/machinery/vending/cigarette/syndicate,
 /obj/effect/turf_decal/siding/dark{
@@ -87,24 +130,29 @@
 /obj/item/stock_parts/micro_laser,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
+"aP" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 8
+	},
+/turf/open/floor/pod/light,
+/area/virtual_domain/syndicate_waystation/station/vault)
+"aT" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/open/floor/plating,
+/area/virtual_domain/powered)
 "aZ" = (
 /obj/effect/turf_decal/siding/dark_red{
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "bb" = (
-/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
-/obj/docking_port/stationary{
-	height = 10;
-	shuttle_id = "syndie_waystation_hangar";
-	name = "Clandestine Syndicate Waystation";
-	width = 10;
-	dir = 2
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/virtual_domain/syndicate_waystation/station/repairbay)
+/obj/structure/transit_tube,
+/turf/open/space/basic,
+/area/space)
 "bc" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
@@ -155,9 +203,21 @@
 "bo" = (
 /turf/closed/mineral/bananium,
 /area/virtual_domain/syndicate_waystation/asteroid)
+"bq" = (
+/obj/structure/broken_flooring/pile/directional/north,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
+"bs" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Point Defense"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "bF" = (
-/obj/structure/mecha_wreckage/mauler,
 /obj/effect/turf_decal/bot_red,
+/obj/structure/mecha_wreckage/phazon,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "bM" = (
@@ -175,6 +235,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/security)
 "cb" = (
@@ -226,8 +287,8 @@
 /turf/open/floor/circuit/red/off,
 /area/virtual_domain/syndicate_waystation/station/security)
 "cs" = (
-/obj/structure/mecha_wreckage/gygax/dark,
-/obj/effect/turf_decal/bot_red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "ct" = (
@@ -242,6 +303,9 @@
 /obj/effect/turf_decal/tile/dark/full,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
+"cw" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/virtual_domain/powered)
 "cx" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/jacket/straight_jacket,
@@ -308,6 +372,15 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
+"di" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 6
+	},
+/turf/open/floor/circuit/red,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "dj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -342,7 +415,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/machinery/door/airlock/mining,
+/obj/machinery/door/airlock/mining{
+	name = "Mining Bay"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/mining)
 "dJ" = (
@@ -351,6 +427,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
 "dK" = (
@@ -375,6 +452,55 @@
 "dQ" = (
 /turf/open/floor/eighties,
 /area/virtual_domain/powered)
+"dT" = (
+/obj/structure/transit_tube,
+/turf/template_noop,
+/area/virtual_domain/safehouse)
+"dV" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/obj/structure/transit_tube/station/dispenser,
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/powered)
+"dX" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/mob_spawn/corpse/human/syndicatecommando/lessenedgear,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
+"ei" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/window/reinforced/survival_pod/spawner/directional{
+	dir = 6
+	},
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/item/ammo_box/a40mm,
+/obj/item/melee/energy/sword/saber/red{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/item/melee/energy/sword/saber/red{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/melee/energy/sword/saber/red{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "ek" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
@@ -450,6 +576,12 @@
 /obj/machinery/light/red/dim/directional/west,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/medical)
+"eK" = (
+/obj/structure/broken_flooring/pile/directional/north{
+	dir = 2
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "eO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -475,6 +607,27 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
+"eX" = (
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/item/storage/toolbox/emergency/turret{
+	pixel_y = 2
+	},
+/obj/item/storage/toolbox/emergency/turret{
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/virtual_domain/syndicate_waystation/station/vault)
 "eY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -488,6 +641,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "fd" = (
@@ -519,6 +673,28 @@
 /obj/structure/barricade/sandbags,
 /turf/open/misc/asteroid/airless,
 /area/virtual_domain/syndicate_waystation/asteroid)
+"fk" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/gun/ballistic/revolver/syndicate{
+	pixel_x = -1;
+	pixel_y = 2
+	},
+/obj/item/ammo_box/a357{
+	icon_state = "357-7";
+	pixel_x = 2
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "fl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
@@ -540,6 +716,22 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/hallway)
+"fD" = (
+/obj/structure/railing,
+/obj/structure/table/reinforced,
+/obj/item/storage/medkit/tactical{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
+/area/virtual_domain/powered)
+"fG" = (
+/obj/structure/transit_tube/curved/flipped{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space)
 "fH" = (
 /obj/structure/rack{
 	dir = 8
@@ -604,6 +796,32 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"gg" = (
+/obj/item/deployable_turret_folded{
+	pixel_x = 9
+	},
+/obj/item/storage/toolbox/ammobox{
+	pixel_y = 4;
+	pixel_x = -7
+	},
+/obj/item/storage/toolbox/ammobox{
+	pixel_y = -2;
+	pixel_x = -7
+	},
+/obj/item/storage/toolbox/ammobox{
+	pixel_y = -7;
+	pixel_x = -7
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/virtual_domain/syndicate_waystation/station/vault)
 "gh" = (
 /obj/effect/turf_decal/tile/bar/diagonal_centre,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -624,6 +842,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
+"gt" = (
+/obj/structure/railing,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
+/area/virtual_domain/powered)
 "gx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -640,6 +865,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
 "gI" = (
@@ -760,6 +986,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/freezer,
 /area/virtual_domain/syndicate_waystation/station)
 "ht" = (
@@ -801,9 +1028,18 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/security)
 "hJ" = (
-/obj/effect/turf_decal/bot_red,
+/obj/machinery/button/door/directional/east{
+	id = "syndicate_armoury";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"hN" = (
+/obj/structure/transit_tube/curved/flipped,
+/turf/open/space/basic,
+/area/space)
 "hO" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 10
@@ -819,6 +1055,13 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/hallway)
+"hV" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/machinery/power/turbine/turbine_outlet,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/turf/open/floor/plating/airless,
+/area/virtual_domain/syndicate_waystation/station)
 "hW" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -828,6 +1071,28 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"ia" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/gun/ballistic/shotgun/bulldog{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/gun/ballistic/shotgun/bulldog{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "ic" = (
 /obj/structure/sign/warning/directional/east,
 /turf/open/misc/asteroid/airless,
@@ -842,6 +1107,11 @@
 /obj/machinery/hypnochair,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/security)
+"if" = (
+/obj/effect/turf_decal/bot_red,
+/obj/structure/mecha_wreckage/marauder,
+/turf/open/floor/engine,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "in" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -857,6 +1127,7 @@
 "iw" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/iron/dark/side{
 	dir = 5
 	},
@@ -867,6 +1138,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "iG" = (
@@ -876,6 +1148,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/security)
+"iT" = (
+/obj/structure/chair/stool/directional/north,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/virtual_domain/syndicate_waystation/station)
 "iX" = (
 /obj/item/food/pizzaslice/moldy{
 	pixel_x = -10
@@ -975,6 +1252,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/security)
 "jx" = (
@@ -985,10 +1263,20 @@
 /obj/item/robot_suit,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
+"jz" = (
+/obj/structure/transit_tube/curved{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
 "jC" = (
 /obj/machinery/door/window/survival_pod,
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/security)
+"jE" = (
+/obj/effect/baseturf_helper/virtual_domain,
+/turf/closed/wall/mineral/titanium,
+/area/virtual_domain/powered)
 "jI" = (
 /obj/effect/turf_decal/tile/dark/full,
 /obj/structure/reagent_dispensers/fueltank/large,
@@ -1010,6 +1298,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
+"jV" = (
+/obj/structure/transit_tube/diagonal{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
 "jY" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Hostage Processing Centre"
@@ -1017,6 +1311,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
 "jZ" = (
@@ -1034,6 +1329,15 @@
 	dir = 8
 	},
 /turf/open/floor/circuit/red/off,
+/area/virtual_domain/syndicate_waystation/station/security)
+"kh" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/box/red,
+/obj/structure/closet/secure_closet/brig{
+	name = "Prisoner Locker";
+	req_one_access = list("syndicate")
+	},
+/turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
 "kk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1055,6 +1359,7 @@
 	},
 /obj/item/clipboard,
 /obj/item/paper,
+/obj/item/melee/baton/telescopic/contractor_baton,
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/security)
 "kv" = (
@@ -1096,6 +1401,23 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"la" = (
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/item/storage/belt/utility/syndicate,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/crowbar/power/syndicate,
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/virtual_domain/syndicate_waystation/station/vault)
 "lb" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/medkit/tactical,
@@ -1129,6 +1451,12 @@
 	},
 /turf/open/floor/eighties,
 /area/virtual_domain/powered)
+"ls" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/item/shard,
+/obj/item/stack/cable_coil,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "lt" = (
 /obj/effect/turf_decal/loading_area/red{
 	dir = 4
@@ -1153,6 +1481,10 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/hangar)
+"lD" = (
+/mob/living/basic/syndicate/ranged/smg/space/stormtrooper,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "lH" = (
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/turf_decal/stripes/red/line{
@@ -1205,6 +1537,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/hallway)
+"lQ" = (
+/obj/structure/transit_tube/curved{
+	dir = 8
+	},
+/turf/open/space,
+/area/space)
 "lS" = (
 /obj/effect/turf_decal/tile/bar/diagonal_centre,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -1251,6 +1589,7 @@
 /obj/machinery/door/airlock/material{
 	name = "Washroom 1"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/showroomfloor,
 /area/virtual_domain/syndicate_waystation/station)
 "mf" = (
@@ -1268,6 +1607,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "mo" = (
@@ -1280,14 +1622,17 @@
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
 "mu" = (
 /obj/effect/turf_decal/tile/dark/full,
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/structure/statue/uranium/nuke,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/baseturf_helper/virtual_domain,
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation/commander{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "mz" = (
@@ -1295,8 +1640,33 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/mining)
+"mD" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/item/ammo_box/magazine/m10mm{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/ammo_box/magazine/m10mm{
+	pixel_y = 3
+	},
+/obj/item/ammo_box/magazine/m10mm{
+	pixel_x = 3
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "mE" = (
 /obj/effect/turf_decal/trimline/dark_red/arrow_cw,
 /obj/machinery/light/directional/south,
@@ -1327,6 +1697,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "mI" = (
@@ -1403,13 +1774,26 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"np" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	dir = 10
+	},
+/turf/closed/wall/mineral/titanium,
+/area/virtual_domain/powered)
 "nq" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
+"nr" = (
+/obj/vehicle/sealed/mecha/marauder/mauler/loaded{
+	dir = 8
+	},
+/turf/open/floor/iron/recharge_floor,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "nu" = (
 /obj/effect/turf_decal/tile/dark/full,
 /obj/machinery/rnd/production/circuit_imprinter,
@@ -1434,6 +1818,22 @@
 	},
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"nN" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/ammo_box/magazine/m7mm,
+/obj/item/gun/ballistic/automatic/l6_saw,
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "nR" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/storage/backpack/duffelbag/syndie/surgery,
@@ -1450,15 +1850,7 @@
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "nW" = (
-/obj/effect/turf_decal/siding/dark_red{
-	dir = 8
-	},
-/obj/effect/turf_decal/loading_area/red{
-	dir = 8;
-	pixel_x = 2
-	},
-/obj/structure/cable,
-/turf/open/floor/engine,
+/turf/open/floor/circuit/red,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "nX" = (
 /obj/effect/turf_decal/tile/bar/diagonal_centre,
@@ -1466,6 +1858,10 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/diagonal,
+/area/virtual_domain/syndicate_waystation/station)
+"oa" = (
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "ol" = (
 /obj/effect/turf_decal/tile/bar/diagonal_centre,
@@ -1537,6 +1933,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"oM" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/plating,
+/area/virtual_domain/syndicate_waystation/station)
 "oQ" = (
 /obj/item/circular_saw,
 /obj/item/scalpel{
@@ -1575,9 +1977,18 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/box,
-/obj/machinery/light/directional/east,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"py" = (
+/obj/structure/frame/computer{
+	anchored = 1
+	},
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/iron/dark/textured_large,
+/area/virtual_domain/syndicate_waystation/station)
 "pz" = (
 /turf/closed/indestructible/binary,
 /area/virtual_domain)
@@ -1593,8 +2004,16 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/security)
+"pQ" = (
+/obj/item/chair/stool{
+	dir = 4
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "pT" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
 /obj/structure/cable,
@@ -1622,6 +2041,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Bar"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "qp" = (
@@ -1674,6 +2094,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
+"qE" = (
+/obj/machinery/power/turbine/turbine_outlet{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "qF" = (
 /obj/machinery/conveyor{
 	dir = 8
@@ -1686,7 +2112,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/machinery/door/puzzle/keycard,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "qN" = (
@@ -1698,6 +2124,14 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/virtual_domain/syndicate_waystation/station)
+"qO" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/mecha_ammo/missiles_srm{
+	pixel_y = 12
+	},
+/obj/item/mecha_ammo/missiles_srm,
+/turf/open/floor/iron/dark/smooth_half,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "qT" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 9
@@ -1722,6 +2156,27 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
+"rh" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/item/ammo_box/magazine/m12g{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/m12g{
+	pixel_x = -6
+	},
+/obj/item/ammo_box/magazine/m12g,
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "rq" = (
 /obj/machinery/computer/old{
 	dir = 4
@@ -1732,6 +2187,12 @@
 /obj/structure/table,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
+"rx" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "rA" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /obj/item/clothing/gloves/color/yellow,
@@ -1741,6 +2202,16 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"rB" = (
+/obj/machinery/power/turbine/core_rotor,
+/obj/effect/turf_decal/stripes/red/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/virtual_domain/syndicate_waystation/station)
 "rK" = (
 /turf/open/space,
 /area/space)
@@ -1750,12 +2221,24 @@
 	},
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"rO" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Gaming Den"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/turf/open/floor/eighties,
+/area/virtual_domain/powered)
 "rW" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
+"rZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "sc" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -1768,38 +2251,41 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/security)
 "sl" = (
-/obj/machinery/door/airlock/hatch,
 /obj/machinery/door/airlock/grunge{
 	name = "Commander's Office"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/leader,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "so" = (
 /obj/effect/turf_decal/siding/dark_red{
 	dir = 8
 	},
-/obj/effect/turf_decal/loading_area/red{
-	dir = 8;
-	pixel_x = 2
-	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "sq" = (
 /obj/structure/closet/secure_closet/brig{
-	name = "Prisoner Locker"
+	name = "Prisoner Locker";
+	req_one_access = list("syndicate")
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/box/red,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
+"su" = (
+/obj/effect/decal/cleanable/blood/innards,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "sv" = (
 /obj/effect/turf_decal/trimline/dark_red/line{
 	dir = 1
@@ -1880,6 +2366,7 @@
 "ta" = (
 /obj/effect/turf_decal/syndicateemblem/middle/middle,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/machinery/light/floor,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "tf" = (
@@ -1894,7 +2381,7 @@
 "tn" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
-/obj/machinery/light/directional/west,
+/obj/machinery/light/dim/directional/west,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
 "tp" = (
@@ -1980,6 +2467,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/security)
 "tT" = (
@@ -2000,7 +2488,6 @@
 	amount = 25
 	},
 /obj/effect/turf_decal/bot_red,
-/obj/machinery/light/directional/east,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "tX" = (
@@ -2008,6 +2495,14 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/misc/asteroid/airless,
 /area/virtual_domain/syndicate_waystation/asteroid)
+"tY" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/virtual_domain/syndicate_waystation/station)
 "ub" = (
 /obj/effect/turf_decal/trimline/dark_red/line{
 	dir = 1
@@ -2015,12 +2510,16 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/security)
+"uc" = (
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "uf" = (
 /obj/machinery/door/airlock/material{
 	name = "Cabin 3"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "ug" = (
@@ -2030,6 +2529,22 @@
 	},
 /obj/effect/turf_decal/bot_red,
 /turf/open/floor/engine,
+/area/virtual_domain/syndicate_waystation/station/vault)
+"uh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/caution/red{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/syndicate_waystation/station/vault)
+"uk" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/mecha_ammo/scattershot{
+	pixel_y = 12
+	},
+/obj/item/mecha_ammo/scattershot,
+/turf/open/floor/iron/dark/smooth_half,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "uy" = (
 /obj/machinery/porta_turret/syndicate/pod{
@@ -2073,6 +2588,10 @@
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/iron/checker,
 /area/virtual_domain/syndicate_waystation/station/security)
+"uR" = (
+/mob/living/basic/syndicate/melee/sword/space/stormtrooper,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "uW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -2085,10 +2604,18 @@
 	dir = 5
 	},
 /area/virtual_domain/syndicate_waystation/station)
+"vb" = (
+/obj/item/ammo_box/a357{
+	icon_state = "357-7";
+	pixel_x = 2
+	},
+/turf/closed/mineral/random/high_chance/volcanic,
+/area/virtual_domain/syndicate_waystation/asteroid)
 "vd" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/catwalk_floor/iron_dark,
+/obj/effect/baseturf_helper/virtual_domain,
+/turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
 "vj" = (
 /obj/structure/sink/directional/east,
@@ -2166,6 +2693,12 @@
 /obj/machinery/light/small/built/directional/west,
 /turf/open/floor/iron/freezer,
 /area/virtual_domain/syndicate_waystation/station)
+"wb" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	dir = 9
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/virtual_domain/powered)
 "wd" = (
 /obj/effect/turf_decal/tile/bar/diagonal_centre,
 /obj/structure/chair/stool/bar/directional/west,
@@ -2182,6 +2715,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "wk" = (
@@ -2239,6 +2773,8 @@
 /area/virtual_domain/syndicate_waystation/station/mining)
 "wy" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/circuit/red,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "wA" = (
@@ -2391,8 +2927,18 @@
 "xx" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"xA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/turf/open/floor/circuit/red,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "xD" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -2405,6 +2951,12 @@
 /obj/structure/tank_dispenser,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"xL" = (
+/obj/machinery/button/door/directional/west{
+	id = vault
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "xM" = (
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/vault)
@@ -2462,7 +3014,6 @@
 /area/virtual_domain/syndicate_waystation/station/engineering)
 "yu" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
-/obj/structure/grille,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station)
 "yv" = (
@@ -2510,12 +3061,22 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
+"yB" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
+/area/virtual_domain/powered)
 "yC" = (
 /obj/machinery/door/airlock/material{
 	name = "Cabin 1"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "yE" = (
@@ -2523,6 +3084,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
+"yF" = (
+/obj/machinery/power/turbine/core_rotor{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "yG" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -2547,9 +3114,19 @@
 /turf/open/floor/iron,
 /area/virtual_domain/syndicate_waystation/station/engineering)
 "yK" = (
-/obj/structure/bookcase/manuals/research_and_development,
-/turf/open/floor/iron/dark,
-/area/virtual_domain/syndicate_waystation/station/hallway)
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/machinery/power/emitter/prototype{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/virtual_domain/syndicate_waystation/station/vault)
 "yO" = (
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/glass/reinforced,
@@ -2577,11 +3154,22 @@
 	},
 /turf/open/floor/circuit/red,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"zd" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/virtual_domain/syndicate_waystation/station)
 "zf" = (
 /obj/structure/chair/stool/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
+/area/virtual_domain/syndicate_waystation/station)
+"zi" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/blood/gibs/body,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station)
 "zj" = (
 /obj/effect/turf_decal/stripes/line{
@@ -2651,6 +3239,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/diagonal,
 /area/virtual_domain/syndicate_waystation/station)
+"zH" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/turf/open/floor/pod/light,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "zN" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -2772,7 +3366,8 @@
 /area/virtual_domain/syndicate_waystation/station/vault)
 "AP" = (
 /obj/machinery/door/poddoor/shutters/window{
-	dir = 8
+	dir = 8;
+	id = vault
 	},
 /turf/open/floor/iron/dark/textured,
 /area/virtual_domain/syndicate_waystation/station/vault)
@@ -2810,6 +3405,18 @@
 "Bf" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"Bg" = (
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/machinery/shieldgen{
+	active = 1;
+	anchored = 1;
+	locked = 1;
+	req_access = list("syndicate")
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "Bh" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/clothing/head/hats/tophat{
@@ -2862,6 +3469,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/security)
 "BF" = (
@@ -2887,6 +3495,25 @@
 	},
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/hallway)
+"BK" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/window/reinforced/survival_pod/spawner/directional{
+	dir = 10
+	},
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/ammo_box/magazine/sniper_rounds,
+/obj/item/gun/ballistic/rifle/sniper_rifle/syndicate,
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "BP" = (
 /obj/machinery/mineral/processing_unit{
 	dir = 1;
@@ -2949,6 +3576,24 @@
 /obj/structure/cable,
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"Ck" = (
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/item/stack/sheet/mineral/sandbags{
+	matter_amount = 40
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/virtual_domain/syndicate_waystation/station/vault)
 "Cm" = (
 /obj/structure/rack,
 /obj/item/restraints/handcuffs,
@@ -2972,7 +3617,16 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/wood,
+/area/virtual_domain/syndicate_waystation/station)
+"CD" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/item/shard{
+	pixel_y = -9
+	},
+/turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "CF" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners{
@@ -2982,6 +3636,17 @@
 /obj/structure/bedsheetbin,
 /turf/open/floor/iron/cafeteria,
 /area/virtual_domain/syndicate_waystation/station)
+"CK" = (
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/structure/sign/warning/explosives/directional/north,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
+"CL" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/virtual_domain/syndicate_waystation/station/engineering)
 "CN" = (
 /obj/structure/chair{
 	dir = 4
@@ -3014,6 +3679,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
 "De" = (
@@ -3119,12 +3785,11 @@
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "Eb" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Gaming Den"
-	},
-/obj/structure/barricade/wooden/crude,
-/turf/open/floor/eighties,
-/area/virtual_domain/powered)
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "Ee" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/pod/light,
@@ -3154,6 +3819,12 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
+"Er" = (
+/obj/structure/transit_tube/station/dispenser/reverse/flipped{
+	dir = 4
+	},
+/turf/template_noop,
+/area/virtual_domain/safehouse)
 "Es" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -3244,10 +3915,20 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/security)
+"Fn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/circuit/red,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "Fp" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medical Bay"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
 "Ft" = (
@@ -3366,8 +4047,8 @@
 /area/virtual_domain/syndicate_waystation/station/security)
 "GT" = (
 /obj/structure/closet/crate/critter,
-/mob/living/basic/carp,
 /obj/effect/turf_decal/bot_red,
+/mob/living/basic/carp/passive,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "Hd" = (
@@ -3418,21 +4099,43 @@
 /obj/structure/sign/departments/cargo/directional/south,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
+"Hy" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/mecha_ammo/lmg{
+	pixel_y = 12
+	},
+/obj/item/mecha_ammo/lmg,
+/turf/open/floor/iron/dark/smooth_half,
+/area/virtual_domain/syndicate_waystation/station/vault)
+"HG" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/effect/turf_decal/box/red,
+/turf/open/floor/iron/dark/smooth_half,
+/area/virtual_domain/syndicate_waystation/station/vault)
+"HK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "HO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/fans/tiny/shield,
 /obj/machinery/door/poddoor/shutters/window/preopen{
 	id = syndicate_pod_bay
 	},
+/obj/structure/fans/tiny,
+/obj/structure/emergency_shield/regenerating,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "HP" = (
-/obj/structure/mecha_wreckage/gygax/dark,
-/obj/effect/turf_decal/bot_red,
-/obj/machinery/light/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/caution/red{
+	dir = 8
+	},
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "HQ" = (
@@ -3459,6 +4162,9 @@
 	dir = 2
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "HV" = (
@@ -3480,6 +4186,9 @@
 	},
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "Ig" = (
@@ -3489,21 +4198,24 @@
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
 "Ij" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/machinery/door/poddoor/shutters/window/preopen{
-	id = syndicate_pod_bay
-	},
-/obj/structure/fans/tiny/shield,
-/turf/open/floor/plating,
-/area/virtual_domain/syndicate_waystation/station/repairbay)
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "Ik" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/machinery/light/floor,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"Il" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/grenade/flashbang/cluster,
+/obj/machinery/button/door/directional/west{
+	id = "syndicate_armoury";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "Io" = (
 /obj/effect/turf_decal/caution/stand_clear/red,
 /obj/machinery/light/directional/south,
@@ -3513,6 +4225,7 @@
 /obj/machinery/door/airlock/material{
 	name = "Unit 2"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/freezer,
 /area/virtual_domain/syndicate_waystation/station)
 "It" = (
@@ -3523,6 +4236,19 @@
 /obj/effect/turf_decal/syndicateemblem/bottom/left,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
+"Iz" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/virtual_domain/powered)
+"IA" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "ID" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
@@ -3570,6 +4296,7 @@
 /obj/machinery/door/airlock/material{
 	name = "Washroom 2"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/showroomfloor,
 /area/virtual_domain/syndicate_waystation/station)
 "Jd" = (
@@ -3626,6 +4353,22 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/hallway)
+"Jz" = (
+/obj/structure/closet/syndicate,
+/obj/item/clothing/head/helmet/swat{
+	pixel_y = 4
+	},
+/obj/item/clothing/suit/armor/swat,
+/obj/item/clothing/shoes/combat/swat{
+	pixel_y = -9
+	},
+/obj/item/clothing/mask/gas/sechailer/swat,
+/obj/item/clothing/gloves/combat,
+/obj/item/shield/riot,
+/obj/item/melee/baton,
+/obj/effect/turf_decal/box/red,
+/turf/open/floor/iron/dark/smooth_half,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "JE" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/eighties,
@@ -3678,6 +4421,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/mining)
 "JU" = (
@@ -3689,6 +4433,15 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/virtual_domain/syndicate_waystation/station/hangar)
+"JV" = (
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/red/line,
+/obj/structure/frame/computer{
+	anchored = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/virtual_domain/syndicate_waystation/station)
 "JW" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigpack_syndicate{
@@ -3804,6 +4557,10 @@
 /area/virtual_domain/syndicate_waystation/station/security)
 "KX" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/loading_area/red{
+	dir = 8;
+	pixel_x = 2
+	},
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "KY" = (
@@ -3868,8 +4625,7 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp{
 	pixel_x = -5;
-	pixel_y = 2;
-	on = 0
+	pixel_y = 2
 	},
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
@@ -3881,6 +4637,7 @@
 /obj/machinery/door/airlock/material{
 	name = "Unit 1"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/freezer,
 /area/virtual_domain/syndicate_waystation/station)
 "LB" = (
@@ -3928,6 +4685,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "LT" = (
@@ -4053,6 +4812,8 @@
 /area/virtual_domain/syndicate_waystation/station)
 "MM" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/bot_red,
+/obj/structure/mecha_wreckage/gygax/dark,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "MS" = (
@@ -4093,6 +4854,7 @@
 /obj/machinery/door/airlock/security/glass{
 	name = "Warden's Office"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/security)
 "Ng" = (
@@ -4100,6 +4862,7 @@
 	name = "Engineering"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/engineering)
 "Ni" = (
@@ -4112,6 +4875,7 @@
 /area/virtual_domain/syndicate_waystation/station)
 "Nm" = (
 /obj/machinery/door/airlock/public/glass,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "No" = (
@@ -4175,6 +4939,12 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"Ob" = (
+/obj/structure/transit_tube{
+	dir = 8
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/virtual_domain/powered)
 "Oi" = (
 /obj/structure/chair/sofa/bench{
 	dir = 4
@@ -4212,8 +4982,17 @@
 	dir = 6
 	},
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"Oo" = (
+/obj/machinery/power/turbine/inlet_compressor,
+/obj/effect/turf_decal/stripes/red/end{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/virtual_domain/syndicate_waystation/station)
 "Or" = (
 /obj/structure/window/reinforced/survival_pod,
 /obj/structure/window/reinforced/survival_pod{
@@ -4279,6 +5058,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/mining)
+"OX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/airalarm/directional/east,
+/obj/effect/turf_decal/bot_red,
+/obj/structure/mecha_wreckage/seraph,
+/turf/open/floor/engine,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "Pb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
@@ -4286,6 +5072,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Bar"
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "Pe" = (
@@ -4300,6 +5087,10 @@
 "Pi" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/virtual_domain/syndicate_waystation/station/mining)
+"Pm" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/open/floor/plating,
+/area/virtual_domain/syndicate_waystation/station)
 "Po" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
@@ -4351,8 +5142,6 @@
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "Px" = (
-/obj/vehicle/sealed/mecha/honker/dark,
-/obj/effect/turf_decal/bot_red,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "Pz" = (
@@ -4393,6 +5182,31 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"Qe" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/window/reinforced/survival_pod/spawner/directional{
+	dir = 5
+	},
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/item/ammo_box/magazine/m223{
+	pixel_x = 5
+	},
+/obj/item/ammo_box/magazine/m223{
+	pixel_x = -9
+	},
+/obj/item/ammo_box/magazine/m223,
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "Qq" = (
 /obj/structure/chair{
 	pixel_y = -2
@@ -4425,6 +5239,15 @@
 	dir = 5
 	},
 /area/virtual_domain/syndicate_waystation/station)
+"QI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/virtual_domain/powered)
 "QM" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/decal/cleanable/dirt,
@@ -4439,6 +5262,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "QU" = (
@@ -4532,6 +5356,9 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"RP" = (
+/turf/closed/wall/mineral/titanium,
+/area/virtual_domain/powered)
 "RQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -4548,6 +5375,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
 "Sa" = (
@@ -4582,6 +5410,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
+"Sp" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/machinery/power/turbine/turbine_outlet,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/plating/airless,
+/area/virtual_domain/syndicate_waystation/station)
 "Ss" = (
 /obj/effect/turf_decal/trimline/dark_red/arrow_cw{
 	dir = 1
@@ -4614,6 +5448,12 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
+"SH" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	dir = 6
+	},
+/turf/closed/wall/mineral/titanium,
+/area/virtual_domain/powered)
 "SK" = (
 /obj/item/mecha_ammo,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
@@ -4663,6 +5503,10 @@
 	},
 /turf/open/floor/circuit/red,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"Ti" = (
+/obj/effect/baseturf_helper/virtual_domain,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/virtual_domain/syndicate_waystation/station/hangar)
 "Tk" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -4671,7 +5515,7 @@
 	dir = 4
 	},
 /obj/structure/cable/layer1,
-/turf/open/floor/catwalk_floor/iron_dark,
+/turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
 "Tl" = (
 /obj/structure/chair/office{
@@ -4746,12 +5590,13 @@
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "Ui" = (
-/obj/machinery/door/poddoor/shutters/window{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/door/poddoor/shutters/window{
+	dir = 8;
+	id = vault
+	},
 /turf/open/floor/iron/dark/textured,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "Ul" = (
@@ -4809,6 +5654,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/baseturf_helper/virtual_domain,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/science)
 "UB" = (
@@ -4972,6 +5818,19 @@
 /obj/item/pipe_dispenser,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"Vs" = (
+/obj/effect/mob_spawn/corpse/human/syndicatecommando/lessenedgear,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
+"Vv" = (
+/obj/effect/turf_decal/tile/dark/fourcorners,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/red/line,
+/obj/structure/sign/poster/contraband/syndiemoth/directional/north,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "Vx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -4988,6 +5847,7 @@
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/titanium/fifty,
 /obj/effect/turf_decal/bot_red,
+/obj/machinery/light/directional/east,
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "VI" = (
@@ -5013,6 +5873,15 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"VY" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 8
+	},
+/area/virtual_domain/powered)
 "Wa" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 8
@@ -5052,10 +5921,13 @@
 /turf/open/floor/plating,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
 "Wg" = (
+/obj/machinery/button/door/directional/east{
+	id = vault
+	},
 /turf/open/floor/pod/light,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "Wj" = (
-/obj/structure/bookcase/manuals,
+/obj/structure/bookcase/random/adult,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/hallway)
 "Wm" = (
@@ -5079,6 +5951,13 @@
 "Ws" = (
 /turf/closed/mineral/random/high_chance/volcanic,
 /area/virtual_domain/syndicate_waystation/asteroid)
+"Wt" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "SBC_corvette_bolt";
+	name = "Syndicate Corvette Airlock"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/powered)
 "Wu" = (
 /obj/effect/turf_decal/loading_area/red{
 	dir = 8
@@ -5086,6 +5965,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 10
 	},
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/mining)
 "Wv" = (
@@ -5133,6 +6013,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/virtual_domain/syndicate_waystation/station/engineering)
+"Xa" = (
+/obj/structure/transit_tube{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
 "Xe" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
@@ -5185,6 +6071,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/mining)
 "XK" = (
@@ -5258,8 +6145,10 @@
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/medical)
 "Yp" = (
-/obj/structure/closet/crate/large,
-/obj/effect/turf_decal/bot_red,
+/obj/effect/turf_decal/loading_area/red{
+	dir = 8;
+	pixel_x = 2
+	},
 /turf/open/floor/engine,
 /area/virtual_domain/syndicate_waystation/station/vault)
 "Yr" = (
@@ -5276,6 +6165,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station/vault)
+"Yz" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/dark,
+/area/virtual_domain/syndicate_waystation/station)
 "YA" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2,
@@ -5286,12 +6179,11 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/button{
-	pixel_y = 20;
-	id = syndicate_pod_bay
-	},
 /obj/effect/turf_decal/caution/stand_clear/red{
 	dir = 8
+	},
+/obj/machinery/button/door/directional/north{
+	id = syndicate_pod_bay
 	},
 /turf/open/floor/pod/dark,
 /area/virtual_domain/syndicate_waystation/station/repairbay)
@@ -5313,6 +6205,11 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/diagonal,
+/area/virtual_domain/syndicate_waystation/station)
+"YG" = (
+/obj/machinery/light/directional/south,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/iron/dark,
 /area/virtual_domain/syndicate_waystation/station)
 "YH" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -5343,6 +6240,9 @@
 /obj/structure/bed,
 /obj/item/bedsheet/syndie,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/virtual_domain/syndicate_waystation/station)
 "YO" = (
@@ -5353,6 +6253,13 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/plastitanium/red,
 /area/virtual_domain/syndicate_waystation/station/hallway)
+"YR" = (
+/obj/machinery/door/window/survival_pod{
+	dir = 1;
+	name = "Weapons Locker"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "Zb" = (
 /obj/machinery/power/shuttle_engine/propulsion{
 	dir = 8
@@ -5410,6 +6317,30 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/diagonal,
 /area/virtual_domain/syndicate_waystation/station)
+"Zx" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/window/reinforced/survival_pod/spawner/directional{
+	dir = 9
+	},
+/obj/structure/rack{
+	dir = 8;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/item/gun/ballistic/automatic/m90/unrestricted{
+	pixel_y = 3
+	},
+/obj/item/gun/ballistic/automatic/m90/unrestricted{
+	pixel_y = -2
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/virtual_domain/syndicate_waystation/station/vault)
 "ZF" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
@@ -5519,6 +6450,29 @@ pz
 "}
 (2,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+Bs
 DQ
 DQ
 DQ
@@ -5529,32 +6483,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -5591,28 +6522,29 @@ pz
 "}
 (3,1,1) = {"
 pz
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -5624,9 +6556,8 @@ DQ
 DQ
 DQ
 rK
-DQ
-DQ
-DQ
+rK
+rK
 DQ
 DQ
 DQ
@@ -5663,6 +6594,29 @@ pz
 "}
 (4,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -5673,32 +6627,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -5735,6 +6666,29 @@ pz
 "}
 (5,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -5745,32 +6699,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -5807,6 +6738,29 @@ pz
 "}
 (6,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -5817,32 +6771,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -5879,6 +6810,29 @@ pz
 "}
 (7,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -5889,32 +6843,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -5951,6 +6882,29 @@ pz
 "}
 (8,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -5961,32 +6915,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -6023,6 +6954,29 @@ pz
 "}
 (9,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6033,32 +6987,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -6095,6 +7026,29 @@ pz
 "}
 (10,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6105,32 +7059,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -6167,6 +7098,29 @@ pz
 "}
 (11,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6177,32 +7131,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -6239,6 +7170,29 @@ pz
 "}
 (12,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6249,32 +7203,9 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 DQ
 DQ
 DQ
@@ -6311,6 +7242,29 @@ pz
 "}
 (13,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6321,29 +7275,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6383,6 +7314,29 @@ pz
 "}
 (14,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6393,29 +7347,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6455,6 +7386,29 @@ pz
 "}
 (15,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6465,29 +7419,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6527,6 +7458,29 @@ pz
 "}
 (16,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6537,29 +7491,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6599,6 +7530,29 @@ pz
 "}
 (17,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6609,29 +7563,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6671,6 +7602,29 @@ pz
 "}
 (18,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6681,29 +7635,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6743,6 +7674,29 @@ pz
 "}
 (19,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6753,29 +7707,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6815,6 +7746,29 @@ pz
 "}
 (20,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6825,29 +7779,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -6887,29 +7818,29 @@ pz
 "}
 (21,1,1) = {"
 pz
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -6959,33 +7890,33 @@ pz
 "}
 (22,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 DQ
 DQ
 DQ
@@ -7031,6 +7962,29 @@ pz
 "}
 (23,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -7038,32 +7992,9 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -7103,6 +8034,29 @@ pz
 "}
 (24,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -7110,32 +8064,9 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -7175,6 +8106,29 @@ pz
 "}
 (25,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -7182,32 +8136,9 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -7247,6 +8178,29 @@ pz
 "}
 (26,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 DQ
 DQ
 DQ
@@ -7254,32 +8208,9 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -7319,6 +8250,32 @@ pz
 "}
 (27,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+Er
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+dT
+bb
+bb
+fG
 DQ
 DQ
 DQ
@@ -7326,32 +8283,6 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
 rK
 rK
 rK
@@ -7391,39 +8322,39 @@ pz
 "}
 (28,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+jz
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-DQ
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
 rK
 rK
 rK
@@ -7435,7 +8366,7 @@ rK
 Ws
 Ws
 Ws
-Mg
+Ws
 Ws
 Ws
 rK
@@ -7463,39 +8394,39 @@ pz
 "}
 (29,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+Xa
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-DQ
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
 rK
 rK
 rK
@@ -7535,39 +8466,39 @@ pz
 "}
 (30,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+Xa
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-DQ
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
 rK
 rK
 rK
@@ -7607,39 +8538,39 @@ pz
 "}
 (31,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+Xa
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
 rK
 rK
 rK
@@ -7679,39 +8610,39 @@ pz
 "}
 (32,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+Xa
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
 rK
 rK
 rK
@@ -7751,39 +8682,39 @@ pz
 "}
 (33,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+Xa
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
 rK
 rK
 rK
@@ -7823,43 +8754,43 @@ pz
 "}
 (34,1,1) = {"
 pz
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+DQ
+DQ
+DQ
+Xa
 DQ
 DQ
 DQ
 DQ
 DQ
 DQ
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -7901,37 +8832,37 @@ DQ
 DQ
 DQ
 DQ
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
-rK
-rK
+Xa
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -7973,43 +8904,43 @@ DQ
 DQ
 DQ
 DQ
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+Xa
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
 Ws
-Ws
+Yl
 Yl
 uI
 Eg
@@ -8045,43 +8976,43 @@ DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+lQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
+Yl
+Yl
+Yl
 Yl
 PM
 Zv
@@ -8117,43 +9048,43 @@ DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+jV
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
+DQ
+Yl
+Hi
+yF
 Yl
 qj
 Pb
@@ -8189,43 +9120,43 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+hN
+bb
+bb
+bb
+bb
+bb
+fG
+DQ
+DQ
+DQ
+DQ
+Yl
+Yl
+Hi
+qE
 Yl
 Sd
 kC
@@ -8261,43 +9192,43 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+jz
+DQ
+DQ
+Yl
+Yl
+zd
+Yz
+eK
 Yl
 Sd
 kC
@@ -8333,33 +9264,12 @@ DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -8370,6 +9280,27 @@ rK
 Ws
 Ws
 Ws
+Ws
+rK
+rK
+rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+Ob
+cw
+cw
+cw
+jE
+Pm
+zd
+pQ
 Yl
 SG
 kC
@@ -8400,48 +9331,48 @@ pz
 (42,1,1) = {"
 pz
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 Ws
 Ws
 Ws
 Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+wb
+Ob
+fD
+yB
+yB
+RP
+np
+zi
+ls
 Yl
 Mv
 kC
@@ -8472,48 +9403,48 @@ pz
 (43,1,1) = {"
 pz
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 Ws
 Ws
 Ws
 Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+aT
+dV
+QI
+QI
+QI
+QI
+Wt
+aF
+dX
 Yl
 Sd
 kC
@@ -8544,26 +9475,6 @@ pz
 (44,1,1) = {"
 pz
 DQ
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-DQ
-DQ
-DQ
-DQ
-DQ
 DQ
 DQ
 DQ
@@ -8577,15 +9488,35 @@ DQ
 DQ
 rK
 rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+bo
+bo
+bo
+bo
+bo
 Ws
 Ws
 Ws
 Ws
+rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+Iz
+cw
+gt
+VY
+VY
+RP
+SH
+CD
+su
 Yl
 Sd
 kC
@@ -8616,48 +9547,48 @@ pz
 (45,1,1) = {"
 pz
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+Ws
+Ws
+Ws
+Ws
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+Ws
+Ws
+Ws
+Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+cw
+cw
+cw
+cw
+RP
+Pm
+tY
+YG
 Yl
 SG
 kC
@@ -8688,11 +9619,24 @@ pz
 (46,1,1) = {"
 pz
 DQ
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 Ws
 Ws
-Ws
+bo
+bo
+bo
+bo
+bo
 bo
 bo
 bo
@@ -8701,35 +9645,22 @@ bo
 Ws
 Ws
 Ws
-Ws
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+DQ
+DQ
+Yl
+Yl
+oM
+zd
+bq
 Yl
 Sd
 kC
@@ -8760,10 +9691,18 @@ pz
 (47,1,1) = {"
 pz
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 Ws
-Ws
-Ws
-Ws
 bo
 bo
 bo
@@ -8771,37 +9710,29 @@ bo
 bo
 bo
 bo
-Ws
+bo
+bo
+bo
+bo
 Ws
 Ws
 Ws
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+DQ
+Oo
+rB
+hV
+py
+iT
+Hi
 Yl
 Sd
 kC
@@ -8832,8 +9763,17 @@ pz
 (48,1,1) = {"
 pz
 DQ
-Ws
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 bo
 bo
 bo
@@ -8844,36 +9784,27 @@ bo
 bo
 bo
 bo
-Ws
-Ws
+bo
+bo
+bo
+bo
 Ws
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+DQ
+DQ
+Yl
+Yl
+Eb
+IA
+Hi
 Yl
 Sd
 kC
@@ -8904,6 +9835,17 @@ pz
 (49,1,1) = {"
 pz
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 Ws
 bo
 bo
@@ -8916,36 +9858,25 @@ bo
 bo
 bo
 bo
-Ws
-Ws
+bo
+bo
 Ws
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
 Ws
-Ws
-Ws
-Ws
+Yl
+Vv
+aq
+Hi
 Yl
 Gd
 Fg
@@ -8976,6 +9907,19 @@ pz
 (50,1,1) = {"
 pz
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+Ws
+Ws
 bo
 bo
 bo
@@ -8983,41 +9927,28 @@ bo
 bo
 bo
 bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+Ws
+Ws
+Ws
+Ws
+Ws
 Ws
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
+DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+Yl
+Yl
+Eb
+Vs
+Hi
 Yl
 Sd
 kC
@@ -9048,48 +9979,48 @@ pz
 (51,1,1) = {"
 pz
 DQ
-Ws
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+bo
+Ws
+bo
+bo
+bo
+bo
 Ws
 Ws
 Ws
 Ws
+Ws
+rK
+rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+DQ
+Oo
+rB
+Sp
+JV
+oa
+Hi
 Yl
 Sd
 kC
@@ -9120,48 +10051,48 @@ pz
 (52,1,1) = {"
 pz
 DQ
-Ws
-Ws
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
 Ws
 Ws
 Ws
 Ws
+Ws
+bo
+Ws
+Ws
+Ws
+Ws
+rK
+rK
+rK
+rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+DQ
+rK
+Yl
+Yl
+CK
+Hi
+uR
 Yl
 Sd
 kC
@@ -9186,54 +10117,54 @@ Bq
 Bq
 Bq
 Bq
-Bq
+Ti
 pz
 "}
 (53,1,1) = {"
 pz
 DQ
-rK
-Ws
-bo
-Ws
-bo
-bo
-bo
-bo
-Ws
-Ws
-Ws
-Ws
-Ws
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
 Ws
-Ws
-Ws
-Ws
+Yl
+Bg
+lD
+Ij
 Yl
 SG
 kC
@@ -9264,48 +10195,48 @@ pz
 (54,1,1) = {"
 pz
 DQ
-rK
-Ws
-Ws
-Ws
-Ws
-Ws
-bo
-Ws
-Ws
-Ws
-Ws
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+DQ
+DQ
+Yl
+Yl
+Eb
+Hi
+Hi
 Yl
 Sd
 mW
@@ -9336,49 +10267,49 @@ pz
 (55,1,1) = {"
 pz
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
-Yl
+DQ
+Oo
+rB
+Sp
+JV
+oa
+Hi
+bs
 Sd
 kC
 Fp
@@ -9407,6 +10338,29 @@ pz
 "}
 (56,1,1) = {"
 pz
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9420,36 +10374,13 @@ rK
 rK
 rK
 rK
+DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Ws
-Ws
-Ws
-Ws
+Yl
+Yl
+Bg
+Hi
+Hi
 Yl
 gr
 MT
@@ -9479,6 +10410,29 @@ pz
 "}
 (57,1,1) = {"
 pz
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9492,35 +10446,12 @@ rK
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
 rK
 Ws
-Ws
-Ws
+Yl
+Yl
+Yl
 Bf
 Bf
 Nm
@@ -9551,29 +10482,29 @@ pz
 "}
 (58,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9623,29 +10554,29 @@ pz
 "}
 (59,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9695,29 +10626,29 @@ pz
 "}
 (60,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9767,29 +10698,29 @@ pz
 "}
 (61,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9839,29 +10770,29 @@ pz
 "}
 (62,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9911,29 +10842,29 @@ pz
 "}
 (63,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -9983,29 +10914,29 @@ pz
 "}
 (64,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10055,29 +10986,29 @@ pz
 "}
 (65,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10127,29 +11058,29 @@ pz
 "}
 (66,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10199,29 +11130,29 @@ pz
 "}
 (67,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10246,15 +11177,15 @@ tG
 fd
 AW
 aE
+Ik
 aE
-bb
 aE
 DS
 ta
 Km
 aE
 aE
-aE
+Ik
 aE
 Lo
 tG
@@ -10271,29 +11202,29 @@ pz
 "}
 (68,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10343,29 +11274,29 @@ pz
 "}
 (69,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10415,29 +11346,29 @@ pz
 "}
 (70,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10487,29 +11418,29 @@ pz
 "}
 (71,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10559,29 +11490,29 @@ pz
 "}
 (72,1,1) = {"
 pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10631,6 +11562,23 @@ pz
 "}
 (73,1,1) = {"
 pz
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10641,29 +11589,12 @@ rK
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -10673,7 +11604,7 @@ rK
 rK
 rK
 Ws
-Ij
+HO
 tG
 fd
 pl
@@ -10703,22 +11634,22 @@ pz
 "}
 (74,1,1) = {"
 pz
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -10782,18 +11713,18 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+rK
 rK
 rK
 rK
@@ -10854,20 +11785,20 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
+rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -10926,26 +11857,26 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -10998,26 +11929,26 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
 rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11070,29 +12001,29 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11142,31 +12073,31 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11214,31 +12145,31 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11285,32 +12216,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11357,32 +12288,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11411,7 +12342,7 @@ yj
 uN
 rA
 Lc
-Hg
+CL
 VX
 tn
 VX
@@ -11429,32 +12360,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11501,32 +12432,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11573,32 +12504,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11645,32 +12576,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-rK
-rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11717,32 +12648,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
-rK
-rK
-rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11789,32 +12720,32 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
 rK
 rK
 rK
+rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11861,31 +12792,31 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
 rK
 rK
+rK
+rK
+rK
+rK
+rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -11901,7 +12832,7 @@ Ws
 cb
 Wj
 ar
-yK
+ar
 XU
 cb
 tv
@@ -11933,31 +12864,31 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
 rK
 rK
 rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -12005,28 +12936,28 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
 rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
 rK
 rK
 rK
@@ -12072,32 +13003,32 @@ pz
 (93,1,1) = {"
 pz
 DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12160,16 +13091,16 @@ DQ
 DQ
 DQ
 DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12215,38 +13146,38 @@ pz
 "}
 (95,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-Bs
 DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -12287,39 +13218,39 @@ pz
 "}
 (96,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
 DQ
 DQ
 DQ
 DQ
-rK
-rK
-rK
-rK
-rK
-rK
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -12359,29 +13290,19 @@ pz
 "}
 (97,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 DQ
 DQ
@@ -12392,6 +13313,16 @@ rK
 rK
 rK
 rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+DQ
+DQ
+DQ
 rK
 rK
 Vi
@@ -12413,7 +13344,7 @@ Jf
 tt
 wL
 xM
-xM
+xL
 JH
 Du
 zR
@@ -12431,29 +13362,19 @@ pz
 "}
 (98,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 DQ
 DQ
@@ -12464,6 +13385,16 @@ rK
 rK
 rK
 rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+DQ
+DQ
+DQ
 rK
 rK
 Vi
@@ -12503,33 +13434,33 @@ pz
 "}
 (99,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
 DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12562,7 +13493,7 @@ xM
 xM
 RK
 on
-sq
+kh
 HR
 Ez
 bY
@@ -12575,33 +13506,33 @@ pz
 "}
 (100,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
 DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12621,8 +13552,8 @@ Ws
 Ws
 Zc
 so
-nW
-nW
+aZ
+aZ
 aZ
 LS
 Om
@@ -12634,7 +13565,7 @@ Ew
 Ew
 Ju
 on
-sq
+kh
 HR
 Nu
 sx
@@ -12647,29 +13578,19 @@ pz
 "}
 (101,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 DQ
 DQ
 DQ
@@ -12681,71 +13602,9 @@ rK
 rK
 rK
 rK
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Zc
-Yp
-Yp
-Yp
-KX
-rL
-nd
-yW
-Or
-ci
-sc
-GT
-GT
-GT
-on
-sq
-HR
-VP
-on
-on
-on
-on
-on
-on
-pz
-"}
-(102,1,1) = {"
-pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-DQ
-DQ
-DQ
-DQ
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12766,7 +13625,79 @@ Ws
 Zc
 Px
 cs
-bF
+Yp
+KX
+rL
+nd
+yW
+Or
+ci
+sc
+GT
+GT
+GT
+on
+kh
+HR
+VP
+on
+on
+on
+on
+on
+on
+pz
+"}
+(102,1,1) = {"
+pz
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+Vi
+Vi
+Vi
+Vi
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Zc
+Px
+cs
+if
 MM
 xg
 Hd
@@ -12778,7 +13709,7 @@ lJ
 ug
 cj
 on
-sq
+kh
 HR
 Nu
 sx
@@ -12791,33 +13722,33 @@ pz
 "}
 (103,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
 DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12839,7 +13770,7 @@ Zc
 hJ
 HP
 bF
-MM
+OX
 SV
 iu
 Ok
@@ -12863,33 +13794,33 @@ pz
 "}
 (104,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
 DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12909,7 +13840,7 @@ Ws
 Ws
 Zc
 Zc
-Zc
+ai
 Zc
 Zc
 Zc
@@ -12935,33 +13866,33 @@ pz
 "}
 (105,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
 DQ
 DQ
 DQ
 DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 rK
 rK
 rK
@@ -12979,14 +13910,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+Il
+uh
+Zx
+ia
+fk
+nN
+BK
 on
 FJ
 Ca
@@ -13007,29 +13938,29 @@ pz
 "}
 (106,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13051,14 +13982,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+Jz
+rZ
+YR
+uc
+uc
+uc
+uc
 on
 xT
 ID
@@ -13079,29 +14010,29 @@ pz
 "}
 (107,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13123,14 +14054,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+Jz
+rZ
+Qe
+rh
+af
+mD
+ei
 on
 nR
 KY
@@ -13151,29 +14082,29 @@ pz
 "}
 (108,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13195,14 +14126,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+HG
+rZ
+gg
+yK
+Ck
+la
+eX
 on
 kc
 kc
@@ -13223,29 +14154,29 @@ pz
 "}
 (109,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13267,14 +14198,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+HG
+rZ
+rx
+uc
+uc
+uc
+uc
 on
 co
 co
@@ -13295,29 +14226,29 @@ pz
 "}
 (110,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13339,14 +14270,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+Hy
+HK
+di
+Fn
+Fn
+Fn
+Fn
 on
 mJ
 co
@@ -13367,29 +14298,29 @@ pz
 "}
 (111,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13411,14 +14342,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+qO
+uc
+xA
+aP
+zH
+nr
+nW
 on
 co
 co
@@ -13439,29 +14370,29 @@ pz
 "}
 (112,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13483,14 +14414,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+uk
+uc
+xA
+nW
+nW
+nW
+nW
 on
 co
 co
@@ -13511,29 +14442,29 @@ pz
 "}
 (113,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13555,14 +14486,14 @@ Ws
 Ws
 Ws
 Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
+Zc
+Zc
+Zc
+Zc
+Zc
+Zc
+Zc
+Zc
 on
 on
 on
@@ -13583,29 +14514,29 @@ pz
 "}
 (114,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13655,29 +14586,29 @@ pz
 "}
 (115,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13727,29 +14658,29 @@ pz
 "}
 (116,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13799,29 +14730,29 @@ pz
 "}
 (117,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13837,7 +14768,7 @@ Ws
 Ws
 Ws
 Ws
-Ws
+vb
 Ws
 Ws
 Ws
@@ -13871,29 +14802,29 @@ pz
 "}
 (118,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -13943,29 +14874,29 @@ pz
 "}
 (119,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14015,29 +14946,29 @@ pz
 "}
 (120,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14087,29 +15018,29 @@ pz
 "}
 (121,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14159,29 +15090,29 @@ pz
 "}
 (122,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14231,29 +15162,29 @@ pz
 "}
 (123,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14303,29 +15234,29 @@ pz
 "}
 (124,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14375,29 +15306,29 @@ pz
 "}
 (125,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14447,29 +15378,29 @@ pz
 "}
 (126,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14519,29 +15450,29 @@ pz
 "}
 (127,1,1) = {"
 pz
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
-ST
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
+DQ
 rK
 rK
 rK
@@ -14681,7 +15612,6 @@ DQ
 DQ
 DQ
 DQ
-DQ
 rK
 rK
 rK
@@ -14689,14 +15619,15 @@ rK
 rK
 rK
 rK
+Vi
 Vi
 Vi
 Ws
 Ws
 Ws
-Vi
-Vi
-Vi
+Ws
+CP
+CP
 Ws
 Ws
 Ws
@@ -14757,19 +15688,19 @@ rK
 rK
 rK
 rK
-rK
-rK
-rK
 Vi
 Vi
 Vi
+Vi
+Vi
+Ws
 Ws
 Ws
 Ws
 Ws
 CP
-CP
-Ws
+Vi
+Vi
 Ws
 Ws
 Ws
@@ -14828,7 +15759,6 @@ rK
 rK
 rK
 rK
-rK
 Vi
 Vi
 Vi
@@ -14839,7 +15769,8 @@ Ws
 Ws
 Ws
 Ws
-CP
+Ws
+Vi
 Vi
 Vi
 Ws
@@ -14911,8 +15842,8 @@ Ws
 Ws
 Ws
 Ws
-Vi
-Vi
+fj
+fj
 Vi
 Ws
 Ws
@@ -14970,8 +15901,6 @@ rK
 rK
 rK
 rK
-rK
-rK
 Vi
 Vi
 Vi
@@ -14983,8 +15912,10 @@ Ws
 Ws
 Ws
 Ws
-fj
-fj
+Ws
+Vi
+Vi
+Vi
 Vi
 Ws
 Ws
@@ -15022,78 +15953,6 @@ Ws
 pz
 "}
 (134,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(135,1,1) = {"
 pz
 rK
 rK
@@ -15165,7 +16024,7 @@ Ws
 Ws
 pz
 "}
-(136,1,1) = {"
+(135,1,1) = {"
 pz
 rK
 rK
@@ -15200,7 +16059,7 @@ Ws
 Ws
 ZW
 ZW
-Eb
+rO
 ZW
 ZW
 Ws
@@ -15237,7 +16096,7 @@ Ws
 Ws
 pz
 "}
-(137,1,1) = {"
+(136,1,1) = {"
 pz
 rK
 rK
@@ -15309,7 +16168,7 @@ Ws
 Ws
 pz
 "}
-(138,1,1) = {"
+(137,1,1) = {"
 pz
 rK
 rK
@@ -15381,7 +16240,7 @@ Ws
 Ws
 pz
 "}
-(139,1,1) = {"
+(138,1,1) = {"
 pz
 rK
 rK
@@ -15453,583 +16312,79 @@ Ws
 Ws
 pz
 "}
+(139,1,1) = {"
+pz
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+Vi
+Vi
+Vi
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+ZW
+ZW
+ZW
+ZW
+ZW
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+Ws
+pz
+"}
 (140,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-ZW
-ZW
-ZW
-ZW
-ZW
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(141,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(142,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(143,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(144,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(145,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(146,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(147,1,1) = {"
-pz
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-rK
-Vi
-Vi
-Vi
-Vi
-Vi
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-Ws
-pz
-"}
-(148,1,1) = {"
 pz
 pz
 pz

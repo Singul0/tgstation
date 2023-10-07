@@ -3,14 +3,14 @@
 	cost = BITRUNNER_COST_HIGH
 	desc = "An clandestine waystation point for syndicate raids tucked away in a asteroid field of a non-descript gas giant. Can you raid it for all it's worth?"
 	difficulty = BITRUNNER_DIFFICULTY_HIGH
-	extra_loot = list(/obj/item/folder/syndicate/red)
+	extra_loot = list(/obj/item/folder/syndicate/red = 1)
 	forced_outfit = /datum/outfit/virtual_marine
 	help_text = "A Highly defended clandestine waystation for supporting syndicate raids deep into nanotrasen territory, \
 	You are the marines entrusted to raid it and to deny the syndicate this precious asset. Ensure to take everything the base has and destroy it. \
 	Or defy your orders, desserting and establishing the waystation as your base of operations for your new pirate crew. Your choice."
 	key = "syndicate_waystation_assault"
 	map_name = "syndicate_waystation_assault"
-	reward_points = BITRUNNER_REWARD_EXTREME
+	reward_points = BITRUNNER_REWARD_HIGH
 	safehouse_path = /datum/map_template/safehouse/syndicate_waystation_assault
 
 // ID Trims
@@ -56,6 +56,7 @@
 	uniform = /obj/item/clothing/under/rank/centcom/military
 	gloves = /obj/item/clothing/gloves/combat
 	shoes = /obj/item/clothing/shoes/combat
+	back = /obj/item/storage/backpack/ert/pmc
 
 /datum/outfit/syndicate_waystation
 	name = "Syndicate Waystation Technician"
@@ -178,15 +179,19 @@
 
 //Mobs
 
-//Shuttles
-/obj/machinery/computer/shuttle/syndicate_drop_pod
-	name = "drop-pod shuttle console"
-	shuttleId = "syndie_drop_pod"
-	icon_screen = "syndishuttle"
-	icon_keyboard = "syndie_key"
-	light_color = COLOR_SOFT_RED
-	possible_destinations = "syndie_waystation_safehouse;;syndie_waystation_hangar"
+//Ghost Roles (Reflavoured Cybersun Syndicate)
 
-/area/shuttle/syndicate_drop_pod
-	name = "Syndicate Drop-pod"
-	requires_power = FALSE
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation
+	name = "Syndicate Waystation Crewmember"
+	prompt_name = "syndicate waystation crew"
+	you_are_text = "You are a syndicate operative on an clandestine waystation, deep in hostile space."
+	flavour_text = "You hear a loud thud, then a boom. You awaken to the on-board automatic announcement system blaring alarms, You are under attack. Make your way to the vault to the most right of the station, Equip yourself in the armoury of the vault and repel the invaders. follow the commander's orders and you might make it out alive.."
+	important_text = "Obey orders given by your commander. DO NOT let the waystation fall into enemy hands."
+
+/obj/effect/mob_spawn/ghost_role/human/syndicatespace/waystation/commander
+	name = "Syndicate Waystation Commander"
+	prompt_name = "a waystation commander"
+	you_are_text = "You are the commander of clandestine waystation, deep in hostile space."
+	flavour_text = "You hear a loud thud, then a boom. You awaken to the on-board automatic announcement system blaring alarms, You are under attack. Make your way to the vault to the most right of the station, Equip yourself and your troops in the armoury of the vault and repel the invaders. Command well and you and your crew might make it out alive.."
+	important_text = "Protect the waystation and the cache in the vault with your own life."
+	outfit = /datum/outfit/syndicatespace/syndicaptain
