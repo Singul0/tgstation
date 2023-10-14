@@ -46,9 +46,13 @@
 /datum/map_template/safehouse/ice
 	filename = "ice.dmm"
 
+/datum/map_template/safehouse/bathroom
+	filename = "bathroom.dmm"
+
 //Unmodular Safehouses
 /datum/map_template/safehouse/syndicate_waystation_assault
 	filename = "syndicate_waystation_assault.dmm"
+
 /**
  * Your safehouse here
  * /datum/map_template/safehouse/your_type

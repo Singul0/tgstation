@@ -2183,8 +2183,8 @@
 /obj/effect/mapping_helpers/airalarm/unlocked,
 /turf/open/floor/iron,
 /area/station/command/bridge)
-"FW" = (
-/obj/effect/landmark/bitrunning/station_reward_spawn,
+"Fe" = (
+/obj/machinery/byteforge,
 /turf/open/floor/circuit/green,
 /area/station/bitrunning/den)
 "Ht" = (
@@ -2218,10 +2218,6 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /turf/open/floor/iron,
 /area/station/command/bridge)
-"IB" = (
-/obj/machinery/quantum_server/debug,
-/turf/open/floor/iron,
-/area/station/bitrunning/den)
 "IH" = (
 /obj/structure/closet/secure_closet/engineering_welding{
 	locked = 0
@@ -2572,6 +2568,10 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating,
 /area/station/engineering/atmos)
+"XW" = (
+/obj/machinery/quantum_server/debug,
+/turf/open/floor/iron,
+/area/station/bitrunning/den)
 "XZ" = (
 /obj/effect/landmark/blobstart,
 /turf/open/floor/iron,
@@ -3196,7 +3196,7 @@ aa
 aa
 aa
 uI
-FW
+hU
 hU
 jR
 Oq
@@ -3288,8 +3288,8 @@ aa
 aa
 aa
 uI
-FW
 hU
+Fe
 jR
 Oq
 uI
@@ -3380,7 +3380,7 @@ aa
 aa
 aa
 uI
-IB
+XW
 jR
 Ht
 Oq
