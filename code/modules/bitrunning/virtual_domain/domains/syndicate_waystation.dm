@@ -15,7 +15,7 @@
 
 // ID Trims
 /datum/id_trim/syndicate_waystation
-	assignment = "Syndicate Waystation Technician"
+	assignment = "Waystation Technician"
 	trim_state = "trim_syndicate"
 	department_color = COLOR_SYNDIE_RED
 	subdepartment_color = COLOR_ENGINEERING_ORANGE
@@ -25,34 +25,10 @@
 		ACCESS_AWAY_ENGINEERING
 		)
 
-/datum/id_trim/syndicate_waystation/commander
-	assignment = "Syndicate Waystation Commander"
-	trim_state = "trim_captain"
-	department_color = COLOR_SYNDIE_RED_HEAD
-	subdepartment_color = COLOR_SYNDIE_RED_HEAD
-	department_state = "departmenthead"
-	access = list(
-		ACCESS_AWAY_GENERAL,
-		ACCESS_AWAY_COMMAND
-		)
-
-/datum/id_trim/syndicate_waystation/marine
-	assignment = "Marine Trooper"
-	trim_state = "trim_deathsquad"
-	department_color = COLOR_CENTCOM_BLUE
-	subdepartment_color = COLOR_CENTCOM_BLUE
-	access = list(
-		ACCESS_AWAY_GENERAL,
-		ACCESS_AWAY_SEC
-		)
-// ID Cards
-/obj/item/card/id/advanced/virtual_marine
-	name = "virtual marine id"
-	trim = /datum/id_trim/syndicate_waystation/marine
-
 //Outfits
 /datum/outfit/virtual_marine
 	name = "Virtual Domain Marine"
+	id = /obj/item/card/id/advanced/centcom
 	uniform = /obj/item/clothing/under/rank/centcom/military
 	gloves = /obj/item/clothing/gloves/combat
 	shoes = /obj/item/clothing/shoes/combat
@@ -60,7 +36,7 @@
 
 /datum/outfit/syndicate_waystation
 	name = "Syndicate Waystation Technician"
-	id_trim = /datum/id_trim/factory
+	id_trim = /datum/id_trim/syndicate_waystation
 	id = /obj/item/card/id/advanced/
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/hazardvest
@@ -72,46 +48,16 @@
 	l_pocket = /obj/item/ammo_box/magazine/m9mm
 	ears = /obj/item/clothing/ears/earmuffs
 
-/datum/outfit/factory/guard
-	name = "Factory Guard"
-
-	uniform = /obj/item/clothing/under/rank/security/officer/grey
-	suit = /obj/item/clothing/suit/armor/vest/alt
-	belt = /obj/item/radio
-	gloves = /obj/item/clothing/gloves/color/black
-	head = /obj/item/clothing/head/soft/sec
-	shoes = /obj/item/clothing/shoes/jackboots/sec
-	l_pocket = /obj/item/restraints/handcuffs
-	r_pocket = /obj/item/assembly/flash/handheld
-
-/datum/outfit/factory/qm
-	name = "Factory Quatermaster"
-
-	id_trim = /datum/id_trim/factory/qm
-	id = /obj/item/card/id/advanced/silver
-	uniform = /obj/item/clothing/under/rank/cargo/qm
-	belt = /obj/item/radio
-	gloves = /obj/item/clothing/gloves/color/black
-	head = /obj/item/clothing/head/soft/yellow
-	shoes = /obj/item/clothing/shoes/jackboots/sec
-	l_pocket = /obj/item/melee/baton/telescopic
-	r_pocket = /obj/item/stamp/head/qm
-
 // Corpses
-/obj/effect/mob_spawn/corpse/human/factory
-	name = "Factory Worker"
-	outfit = /datum/outfit/factory
+/obj/effect/mob_spawn/corpse/human/syndicate_waystation_technician
+	name = "Waystation Technician"
+	outfit = /datum/outfit/syndicate_waystation
 	icon_state = "corpsecargotech"
 
-/obj/effect/mob_spawn/corpse/human/factory/guard
-	name = "Factory Guard"
-	outfit = /datum/outfit/factory/guard
-	icon_state = "corpsecargotech"
-
-/obj/effect/mob_spawn/corpse/human/factory/qm
-	name = "Factory Quartermaster"
-	outfit = /datum/outfit/factory/qm
-	icon_state = "corpsecargotech"
+// Mobs
+/mob/living/basic/syndicate/ranged/syndicate_waystation_technician
+	loot = list(/obj/effect/mob_spawn/corpse/human/syndicate_waystation_technician, /obj/item/gun/ballistic/automatic/pistol)
+	r_hand = /obj/item/gun/ballistic/automatic/pistol
 
 // Areas
 /area/virtual_domain/syndicate_waystation
@@ -163,21 +109,6 @@
 
 /area/virtual_domain/syndicate_waystation/station/mining
 	name = "Mining & Refining Bay"
-
-//Keycards
-
-/obj/machinery/door/puzzle/keycard/syndicate_waystation
-	name = "LOCKDOWN"
-	desc = "Locked down, You would need a keycard from the commander to override the security lockdown."
-	puzzle_id = "syndicate_waystation"
-
-/obj/item/keycard/syndicate_waystation
-	name = "Commander's Keycard"
-	desc = "A red keycard with enough system privilage to override the security lockdown."
-	color = "#9c0e26"
-	puzzle_id = "syndicate_waystation"
-
-//Mobs
 
 //Ghost Roles (Reflavoured Cybersun Syndicate)
 

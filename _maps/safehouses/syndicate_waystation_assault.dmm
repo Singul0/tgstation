@@ -105,6 +105,7 @@
 	pixel_y = -4
 	},
 /obj/item/clothing/mask/balaclava,
+/obj/item/knife/combat,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "ci" = (
@@ -200,6 +201,7 @@
 	pixel_y = -3
 	},
 /obj/item/clothing/mask/balaclava,
+/obj/item/knife/combat,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "gR" = (
@@ -801,6 +803,7 @@
 	pixel_y = -4
 	},
 /obj/item/clothing/mask/balaclava,
+/obj/item/knife/combat,
 /turf/open/floor/iron/smooth,
 /area/virtual_domain/safehouse)
 "FQ" = (
