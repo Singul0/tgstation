@@ -127,8 +127,6 @@
 /mob/living/carbon/human/AIize(client/preference_source, transfer_after = TRUE)
 	if(HAS_TRAIT(src, TRAIT_NO_TRANSFORM))
 		return
-	for(var/t in bodyparts)
-		qdel(t)
 
 	return ..()
 
@@ -173,11 +171,8 @@
 	ADD_TRAIT(src, TRAIT_NO_TRANSFORM, TEMPORARY_TRANSFORMATION_TRAIT)
 	Paralyze(1, ignore_canstun = TRUE)
 
-	for(var/obj/item/W in src)
-		if(delete_items)
-			qdel(W)
-		else
-			dropItemToGround(W)
+	drop_everything(delete_items)
+
 	regenerate_icons()
 	icon = null
 	SetInvisibility(INVISIBILITY_MAXIMUM)
@@ -189,11 +184,10 @@
 	to_chat(src, "<b>You are job banned from cyborg! Appeal your job ban if you want to avoid this in the future!</b>")
 	ghostize(FALSE)
 
-	var/list/mob/dead/observer/candidates = poll_candidates_for_mob("Do you want to play as [src]?", "Cyborg", null, 5 SECONDS, src)
-	if(LAZYLEN(candidates))
-		var/mob/dead/observer/chosen_candidate = pick(candidates)
-		message_admins("[key_name_admin(chosen_candidate)] has taken control of ([key_name_admin(src)]) to replace a jobbanned player.")
-		key = chosen_candidate.key
+	var/mob/chosen_one = SSpolling.poll_ghosts_for_target("Do you want to play as [span_notice(src)]?", check_jobban = JOB_CYBORG, poll_time = 5 SECONDS, checked_target = src, alert_pic = src, role_name_text = "cyborg")
+	if(chosen_one)
+		message_admins("[key_name_admin(chosen_one)] has taken control of ([key_name_admin(src)]) to replace a jobbanned player.")
+		key = chosen_one.key
 
 //human -> alien
 /mob/living/carbon/human/proc/Alienize()
@@ -376,11 +370,11 @@
 	if(!MP)
 		return FALSE //Sanity, this should never happen.
 
-	if(ispath(MP, /mob/living/simple_animal/hostile/construct) || ispath(MP, /mob/living/basic/construct))
+	if(ispath(MP, /mob/living/basic/construct))
 		return FALSE //Verbs do not appear for players.
 
 //Good mobs!
-	if(ispath(MP, /mob/living/simple_animal/pet/cat))
+	if(ispath(MP, /mob/living/basic/pet/cat))
 		return TRUE
 	if(ispath(MP, /mob/living/basic/pet/dog/corgi))
 		return TRUE
@@ -390,7 +384,7 @@
 		return TRUE
 	if(ispath(MP, /mob/living/basic/mushroom))
 		return TRUE
-	if(ispath(MP, /mob/living/simple_animal/shade))
+	if(ispath(MP, /mob/living/basic/shade))
 		return TRUE
 	if(ispath(MP, /mob/living/basic/killer_tomato))
 		return TRUE
@@ -398,7 +392,7 @@
 		return TRUE
 	if(ispath(MP, /mob/living/basic/bear))
 		return TRUE
-	if(ispath(MP, /mob/living/simple_animal/parrot))
+	if(ispath(MP, /mob/living/basic/parrot))
 		return TRUE //Parrots are no longer unfinished! -Nodrak
 
 	//Not in here? Must be untested!

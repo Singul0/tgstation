@@ -285,7 +285,6 @@
 	AddElement(/datum/element/gags_recolorable)
 
 /obj/item/clothing/suit/hooded/hostile_environment/process(seconds_per_tick)
-	. = ..()
 	var/mob/living/carbon/wearer = loc
 	if(istype(wearer) && SPT_PROB(1, seconds_per_tick)) //cursed by bubblegum
 		if(prob(7.5))
@@ -423,13 +422,16 @@
 	using = TRUE
 	balloon_alert(user, "you hold the scythe up...")
 	ADD_TRAIT(src, TRAIT_NODROP, type)
-
-	var/datum/callback/to_call = CALLBACK(src, PROC_REF(on_poll_concluded), user)
-	AddComponent(/datum/component/orbit_poll, \
-		ignore_key = POLL_IGNORE_POSSESSED_BLADE, \
-		job_bans = ROLE_PAI, \
-		to_call = to_call, \
+	var/mob/chosen_one = SSpolling.poll_ghosts_for_target(
+		check_jobban = ROLE_PAI,
+		poll_time = 20 SECONDS,
+		checked_target = src,
+		ignore_category = POLL_IGNORE_POSSESSED_BLADE,
+		alert_pic = src,
+		role_name_text = "soulscythe soul",
+		chat_text_border_icon = src,
 	)
+	on_poll_concluded(user, chosen_one)
 
 /// Ghost poll has concluded and a candidate has been chosen.
 /obj/item/soulscythe/proc/on_poll_concluded(mob/living/master, mob/dead/observer/ghost)
@@ -635,7 +637,7 @@
 	inhand_icon_state = "spectral"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
-	flags_1 = CONDUCT_1
+	obj_flags = CONDUCTS_ELECTRICITY
 	sharpness = SHARP_EDGED
 	w_class = WEIGHT_CLASS_BULKY
 	force = 1
@@ -672,17 +674,14 @@
 		return
 	to_chat(user, span_notice("You call out for aid, attempting to summon spirits to your side."))
 
-	notify_ghosts("[user] is raising [user.p_their()] [name], calling for your help!",
-		enter_link="<a href=?src=[REF(src)];orbit=1>(Click to help)</a>",
-		source = user, ignore_key = POLL_IGNORE_SPECTRAL_BLADE, header = "Spectral blade")
+	notify_ghosts(
+		"[user] is raising [user.p_their()] [name], calling for your help!",
+		source = user,
+		ignore_key = POLL_IGNORE_SPECTRAL_BLADE,
+		header = "Spectral blade",
+	)
 
 	summon_cooldown = world.time + 600
-
-/obj/item/melee/ghost_sword/Topic(href, href_list)
-	if(href_list["orbit"])
-		var/mob/dead/observer/ghost = usr
-		if(istype(ghost))
-			ghost.ManualFollow(src)
 
 /obj/item/melee/ghost_sword/process()
 	ghost_check()

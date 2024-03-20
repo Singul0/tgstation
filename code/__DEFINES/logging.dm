@@ -88,8 +88,9 @@
 #define LOG_ENTRY_KEY_ID "id"
 #define LOG_ENTRY_KEY_SCHEMA_VERSION "s-ver"
 
-// Category for invalid/missing categories
-#define LOG_CATEGORY_NOT_FOUND "invalid-category"
+// Internal categories
+#define LOG_CATEGORY_INTERNAL_CATEGORY_NOT_FOUND "internal-category-not-found"
+#define LOG_CATEGORY_INTERNAL_ERROR "internal-error"
 
 // Misc categories
 #define LOG_CATEGORY_ATTACK "attack"
@@ -160,6 +161,7 @@
 #define LOG_CATEGORY_UPLINK_HERETIC "uplink-heretic"
 #define LOG_CATEGORY_UPLINK_MALF "uplink-malf"
 #define LOG_CATEGORY_UPLINK_SPELL "uplink-spell"
+#define LOG_CATEGORY_UPLINK_SPY "uplink-spy"
 
 // PDA categories
 #define LOG_CATEGORY_PDA "pda"
