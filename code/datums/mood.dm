@@ -96,7 +96,7 @@
 	// 0.416% is 15 successes / 3600 seconds. Calculated with 2 minute
 	// mood runtime, so 50% average uptime across the hour.
 	if(HAS_TRAIT(mob_parent, TRAIT_DEPRESSION) && SPT_PROB(0.416, seconds_per_tick))
-		add_mood_event("depression_mild", /datum/mood_event/depression_mild)
+		add_mood_event("depression", /datum/mood_event/depression)
 
 	if(HAS_TRAIT(mob_parent, TRAIT_JOLLY) && SPT_PROB(0.416, seconds_per_tick))
 		add_mood_event("jolly", /datum/mood_event/jolly)
@@ -298,7 +298,7 @@
 	mood_screen_object.color = "#4b96c4"
 	hud.infodisplay += mood_screen_object
 	RegisterSignal(hud, COMSIG_QDELETING, PROC_REF(unmodify_hud))
-	RegisterSignal(mood_screen_object, COMSIG_CLICK, PROC_REF(hud_click))
+	RegisterSignal(mood_screen_object, COMSIG_SCREEN_ELEMENT_CLICK, PROC_REF(hud_click))
 
 /// Removes the mood HUD object
 /datum/mood/proc/unmodify_hud(datum/source)
